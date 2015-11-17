@@ -1,0 +1,62 @@
+package com.fcv.vms.server;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Date;
+
+import com.fcv.vms.task.file.FileManager;
+
+public class Test {
+	public static void main(String args[])  throws InterruptedException, IOException{
+		/*Date d1=new Date();
+		Thread.sleep(1000);
+		Date d2=new Date();
+		System.out.println(d2.getTime()-d1.getTime());*/
+		
+		
+		/*String path=FileManager.getPath("abcde.s19");
+		FileInputStream fis=new FileInputStream(path);
+		FileInputStream fis2=new FileInputStream("v3.txt");
+		while(fis.available()>0)
+		{
+			if(fis.read()!=fis2.read())
+			{	
+				
+				System.out.println("cuowu:");return;
+			}
+		}
+		System.out.println("jiaoyanma:");*/
+		
+		
+		/*String path=FileManager.getPath("absd.s19");
+		FileInputStream fis=new FileInputStream(path);
+		byte[] cache = new byte[fis.available()];
+		int check=0;
+		if(fis.available()>0)
+		{
+			int i=0;
+			check=fis.read();
+			cache[i++]=(byte) check;
+			while(fis.available()>0)
+			{
+				int b=fis.read();
+				check=check^b;
+				cache[i++]=(byte) b;
+			}
+		}	
+		
+		System.out.println("ddd"+check);*/
+		Object lock=new Object();
+		synchronized(lock)		
+		{
+			System.out.println("1");
+			synchronized(lock)		
+			{
+				System.out.println("2");
+			}
+			System.out.println("3");
+		}
+		System.out.println("4");
+	}
+}

@@ -1,0 +1,68 @@
+2015-01-27 09:06:22,960 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 09:56:30,854 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 09:56:30,854 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-27 10:39:56,706 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-27 10:39:56,706 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-27 10:41:29,862 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 11:28:31,400 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 11:50:24,403 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-27 11:50:24,403 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-27 13:27:59,742 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 14:14:47,647 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-27 14:14:47,648 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 14:23:22,434 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 14:23:22,434 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-27 14:25:38,002 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:180)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:42)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:568)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:547)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:539)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:57)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:867)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:65)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-27 14:25:38,006 ERROR [Mina] - YuanChengCeShi1V4java.io.IOException: 远程主机强迫关闭了一个现有的连接。 exception!
+2015-01-27 14:25:38,007 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-27 14:25:49,357 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 14:27:48,478 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-27 14:28:00,583 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-27 14:28:00,583 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-27 14:30:29,085 ERROR [Mina] - YuanChengCeShi0V4:both idle timeout!
+2015-01-27 14:30:29,085 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-27 14:31:50,979 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-27 14:36:09,438 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 14:36:18,243 ERROR [Mina] - YuanChengCeShi0V4:both idle timeout!
+2015-01-27 14:36:18,243 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-27 14:53:24,088 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-27 14:53:24,088 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 15:14:15,807 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 15:23:31,223 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 15:25:53,923 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-27 15:25:53,924 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-27 15:29:34,149 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-27 15:31:34,879 ERROR [Mina] - YuanChengCeShi0V4:both idle timeout!
+2015-01-27 15:31:34,879 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-27 15:35:32,518 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-27 15:50:30,165 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-27 15:50:30,166 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-27 16:51:17,320 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-27 16:53:50,928 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-27 16:53:50,929 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-27 16:56:03,415 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-27 16:56:03,415 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-27 17:01:12,133 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-27 17:01:12,133 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-27 17:25:25,093 ERROR [Mina] - YuanChengCeShi0V4:both idle timeout!
+2015-01-27 17:25:25,094 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-27 17:48:55,392 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-27 18:20:45,597 ERROR [Mina] - YuanChengCeShi0V4:both idle timeout!
+2015-01-27 18:20:45,597 ERROR [Mina] - YuanChengCeShi0V4 is offline!

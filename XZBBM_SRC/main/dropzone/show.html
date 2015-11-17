@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>showpage</title>
+	<link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+	<style type="text/css">
+		#dropzone{
+			width: 800px;
+			height: 300px;
+			border: 1px solid #333;
+		}
+	</style>
+
+	</head>
+<body>
+	<div id="dropzone" class="dropzone">
+	<!-- 	<form action="http://www.xzbbm.cn/?do=UploadTest" method="post"
+      class="dropzone dz-clickable"
+      id="my">
+      <input type="hidden" name="ts" value="0000000"/>
+      <input type="hidden" name="token" value="1111111"/>
+       <div class="fallback">
+	    <input name="file" type="file" multiple />
+	  </div>
+
+  </form>
+ -->
+</div>
+<script src="http://assets.dwstatic.com/common/js/jquery.js"></script>
+<script type="text/javascript" src="md5.js"></script>
+	<script type="text/javascript" src="js.js"></script>
+	<script type="text/javascript" src="jquery.cookie.js"></script>
+		
+	<script type="text/javascript">
+		// Dropzone.options.myAwesomeDropzone = {
+		//   paramName: "file", // The name that will be used to transfer the file
+		//   maxFilesize: 2, // MB
+		//   accept: function(file, done) {
+		//     if (file.name == "justinbieber.jpg") {
+		//       done("Naha, you don't.");
+		//     }
+		//     else { done(); }
+		//   }
+		// };
+		// $("#my").dropzone({ url: "xxx" });
+
+		window.onload = function(){
+			var timestamp = Date.parse(new Date());
+		
+		var token = hex_md5("2zwep62GnVv08Z5W9GGc" + timestamp);
+			    
+
+		$.cookie('timestamp',timestamp,{
+	    	path:'/'
+	    })
+		$.cookie('token',token,{
+	    	path:'/'
+	    })
+		$.cookie('userid',1,{
+	    	path:'/'
+	    })
+	    $.cookie('ucode',3079,{
+	    	path:'/'
+	    })
+
+		$.cookie('ccode',1015949,{
+	    	path:'/'
+	    })
+
+
+	    setInterval(function(){
+	    	timestamp = Date.parse(new Date());
+	    	token = hex_md5("2zwep62GnVv08Z5W9GGc" + timestamp);
+	    	$.cookie('timestamp',timestamp,{
+		    	path:'/'
+		    })
+
+		    $.cookie('token',token,{
+	    	path:'/'
+	    })
+
+
+	    },5000);
+		// var uuu = 'http://www.xzbbm.cn/?do=UploadTest';
+
+			  var dropz = new Dropzone("#dropzone", {
+		        url: "http://www.xzbbm.cn/?do=Upload",
+		        maxFiles: 10,
+		        maxFilesize: 0.1,
+		        paramName : 'Filedata',
+		        acceptedFiles: ".xls,.pdf,.doc,.jpg,.png",
+		        // forceFallback : true,
+		        addRemoveLinks : true,
+		        dictDefaultMessage : "请将文件拖拽至此"
+		     //    addedfile: function() {
+			    //     // actions...
+			    //     console.log(12)
+			    // }
+		    });
+
+
+			  dropz.on("addedfile", function(file) {
+			    // actions...
+			    
+			    console.log(timestamp,token);
+
+			    
+			});
+
+
+		}	
+
+
+	</script>
+	<script type="text/javascript">
+	Dropzone.autoDiscover = false;
+
+	</script>
+
+</body>
+</html>

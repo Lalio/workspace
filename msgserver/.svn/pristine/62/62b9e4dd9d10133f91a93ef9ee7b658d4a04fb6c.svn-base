@@ -1,0 +1,16 @@
+2015-01-09 11:08:28,701 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at com.fcv.vms.task.FlexMessageManager.getFlexErrorMessageFrame(FlexMessageManager.java:17)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:143)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-09 11:08:28,710 ERROR [Mina] - nulljava.lang.ArrayIndexOutOfBoundsException exception!

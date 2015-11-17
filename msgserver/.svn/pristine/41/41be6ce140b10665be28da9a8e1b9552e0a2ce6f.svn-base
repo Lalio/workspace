@@ -1,0 +1,31 @@
+2015-04-24 09:42:15,849 ERROR [Mina] - New Connect VIN:A000004E1992A26V4
+2015-04-24 09:59:46,461 ERROR [Mina] - New Connect VIN:A000004E1992A26V4
+2015-04-24 09:59:46,461 ERROR [Mina] - A000004E1992A26V4 is offline!
+2015-04-24 10:01:40,873 ERROR [Mina] - New Connect VIN:A000004E1992A26V4
+2015-04-24 10:01:40,873 ERROR [Mina] - A000004E1992A26V4 is offline!
+2015-04-24 10:02:33,665 ERROR [Mina] - New Connect VIN:A000004E1992A26V4
+2015-04-24 10:02:33,665 ERROR [Mina] - A000004E1992A26V4 is offline!
+2015-04-24 10:07:29,351 ERROR [Mina] - A000004E1992A26V4:both idle timeout!
+2015-04-24 10:07:29,351 ERROR [Mina] - A000004E1992A26V4 is offline!
+2015-04-24 11:00:47,512 ERROR [Mina] - New Connect VIN:A000004E1992D86V4
+2015-04-24 11:05:17,605 ERROR [Mina] - A000004E1992D86V4:both idle timeout!
+2015-04-24 11:05:17,605 ERROR [Mina] - A000004E1992D86V4 is offline!
+2015-04-24 15:11:37,418 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:180)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:42)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:568)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:547)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:539)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:57)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:867)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:65)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-04-24 15:11:37,434 ERROR [Mina] - nulljava.io.IOException: 远程主机强迫关闭了一个现有的连接。 exception!

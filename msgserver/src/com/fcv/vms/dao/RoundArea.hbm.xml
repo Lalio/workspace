@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fcv.vms.dao">
+
+	<class name="com.fcv.vms.dao.RoundArea" table="roundArea" lazy="false">
+
+		<id name="id" type="java.lang.Integer" column="id">
+			<generator class="identity" />
+		</id>
+
+		<property name="name" type="java.lang.String" column="name"
+			length="100" />
+		<property name="startTime" type="java.lang.String" column="startTime"
+			length="100" />
+		<property name="endTime" type="java.lang.String" column="endTime"
+			length="100" />
+		<property name="attribute" type="java.lang.Integer" column="attribute"
+			length="4" />
+		<property name="centerLatitude" type="java.lang.Integer"
+			column="centerLatitude" length="4" />
+		<property name="centerLongitude" type="java.lang.Integer"
+			column="centerLongitude" length="4" />
+		<property name="radius" type="java.lang.Integer" column="radius"
+			length="4" />
+		<property name="highestSpeed" type="java.lang.Integer"
+			column="highestSpeed" length="4" />
+		<property name="duration" type="java.lang.Integer" column="duration"
+			length="4" />
+
+		<!-- associations -->
+
+	</class>
+</hibernate-mapping>

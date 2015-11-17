@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+<!-- Database connection settings-->
+<!-- Oracle
+<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+<property name="connection.url">jdbc:oracle:thin:@192.168.1.101:1521:vms1</property>
+<property name="connection.username">sfcv</property>
+<property name="connection.password">sfcv</property>  -->
+<!-- SQlserver 
+<property name="connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
+<property name="connection.url">jdbc:jtds:sqlserver://127.0.0.1:1433/vms2</property>
+<property name="connection.username">sa</property>
+<property name="connection.password">sa</property>-->
+<!-- MySQL-->
+<property name="connection.driver_class">org.gjt.mm.mysql.Driver</property>
+<!-- 常州数据库
+ <property name="connection.url">jdbc:mysql://192.168.1.112:3306/changzhoubackup?useUnicode=true&amp;zeroDateTimeBehavior=convertToNull&amp;characterEncoding=UTF-8</property>
+<property name="connection.username">root</property>
+<property name="connection.password">root</property> 
+-->
+<property name="connection.url">jdbc:mysql://cenyanmysql.mysql.rds.aliyuncs.com:3306/vms?useUnicode=true&amp;zeroDateTimeBehavior=convertToNull&amp;characterEncoding=UTF-8</property>
+<property name="connection.username">cenyan</property>
+<property name="connection.password">cenyan</property> 
+<!-- JDBC connection pool (use the built-in) -->
+
+<!-- <property name="connection.pool_size">1</property> -->
+<property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+<property name="c3p0.min_size">5</property>
+<property name="c3p0.max_size">20</property>
+<property name="c3p0.timeout">1800</property>
+<property name="c3p0.max_statements">50</property>
+<property name="c3p0.idle_test_period">120</property>
+<property name="c3p0.acquire_increment">2</property>  
+
+<!-- Oracle dialect 
+<property name="dialect">org.hibernate.dialect.OracleDialect</property>-->
+<!-- SQL dialect 
+<property name="dialect">org.hibernate.dialect.SQLServerDialect</property>-->
+<!-- MYSQL dialect -->
+<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+<!-- Enable Hibernate's automatic session context management -->
+<property name="current_session_context_class">thread</property>
+<!-- Disable the second-level cache -->
+<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+<!-- Echo all executed SQL to stdout -->
+<property name="show_sql">false</property>
+<!-- Drop and re-create the database schema on startup -->
+<!-- <property name="hbm2ddl.auto">update</property>
+<mapping resource="org/hibernate/tutorial/domain/Event.hbm.xml"/> -->
+<mapping resource="com/fcv/vms/dao/Statistic.hbm.xml" />
+<mapping resource="com/fcv/vms/dao/Status.hbm.xml" />
+<mapping resource="com/fcv/vms/dao/RailAndCar.hbm.xml" />
+<mapping resource="com/fcv/vms/dao/Rail.hbm.xml" />
+<mapping resource="com/fcv/vms/dao/PassRailLog.hbm.xml" />
+<mapping resource="com/fcv/vms/dao/PolygonAreaToTerminal.hbm.xml" />
+<mapping resource="com/fcv/vms/dao/PolygonArea.hbm.xml"/>
+<mapping resource="com/fcv/vms/dao/RoundAreaToTerminal.hbm.xml" />
+<mapping resource="com/fcv/vms/dao/RoundArea.hbm.xml"/>
+<mapping resource="com/fcv/vms/dao/RectangularAreaToTerminal.hbm.xml" />
+<mapping resource="com/fcv/vms/dao/RectangularArea.hbm.xml"/>
+<mapping resource="com/fcv/vms/dao/Reg.hbm.xml"/>
+<mapping resource="com/fcv/vms/dao/RegMap.hbm.xml"/>
+<mapping resource="com/fcv/vms/dao/Dparam.hbm.xml"/>
+</session-factory>
+</hibernate-configuration>

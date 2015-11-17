@@ -1,0 +1,43 @@
+package com.fcv.vms.server;
+
+import java.io.IOException;
+import java.net.InetSocketAddress;
+
+import org.apache.mina.core.service.IoAcceptor;
+import org.apache.mina.filter.codec.ProtocolCodecFilter;
+import org.apache.mina.filter.executor.ExecutorFilter;
+import org.apache.mina.filter.logging.LoggingFilter;
+import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
+
+import com.fcv.vms.Rail.RailManager;
+import com.fcv.vms.Rail.RailManager2;
+import com.fcv.vms.Rail.RailManager3;
+import com.fcv.vms.task.file.FileManager;
+
+public class comserver{
+	public static void main(String args[]){
+		IoAcceptor acceptor;
+		acceptor=new NioSocketAcceptor();
+		acceptor.getFilterChain().addLast("logger", new LoggingFilter());
+		acceptor.getFilterChain().addLast("codec", new ProtocolCodecFilter(new MyProtocalCodecFactory()));
+		acceptor.getFilterChain().addLast("threadPool", new ExecutorFilter());  
+		acceptor.getSessionConfig().setBothIdleTime(120);//√Î
+		acceptor.setHandler(new MyHandler());
+		try {
+			acceptor.bind(new InetSocketAddress(9006));
+			//acceptor.bind(new InetSocketAddress(8041));
+			System.out.println("Server Start!");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		SecurityXMLServer server=new SecurityXMLServer();
+		
+		//RailManager.init();
+			
+		//RailManager3.init();
+	}
+	public void stop(){
+		System.out.println("Server Stop!");
+	}
+}

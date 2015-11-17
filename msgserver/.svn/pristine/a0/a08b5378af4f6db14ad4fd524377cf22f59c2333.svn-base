@@ -1,0 +1,243 @@
+2014-08-29 10:28:30,885 ERROR [Mina] - New Connect VIN:A0000038C19511EV3
+2014-08-29 10:28:32,336 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 231
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:32,351 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 231 exception!
+2014-08-29 10:28:33,772 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:33,787 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-08-29 10:28:36,629 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 231
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:36,629 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 231 exception!
+2014-08-29 10:28:38,065 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:38,065 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-08-29 10:28:42,327 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:42,342 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-08-29 10:28:45,261 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 231
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:45,277 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 231 exception!
+2014-08-29 10:28:46,666 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:46,666 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-08-29 10:28:49,492 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 231
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:49,508 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 231 exception!
+2014-08-29 10:28:50,897 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:50,897 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-08-29 10:28:53,723 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 231
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:53,738 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 231 exception!
+2014-08-29 10:28:55,190 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:28:55,190 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-08-29 10:29:52,822 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 231
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:29:52,837 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 231 exception!
+2014-08-29 10:30:59,277 ERROR [Mina] - New Connect VIN:A0000038C19511EV3
+2014-08-29 10:30:59,277 ERROR [Mina] - A0000038C19511EV3 is offline!
+2014-08-29 10:31:01,977 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:31:01,993 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-08-29 10:31:03,491 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:31:03,507 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-08-29 10:31:06,317 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 231
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:31:06,317 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 231 exception!
+2014-08-29 10:31:07,753 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:31:07,753 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-08-29 10:31:08,612 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 231
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-08-29 10:31:08,612 ERROR [Mina] - A0000038C19511EV3java.lang.ArrayIndexOutOfBoundsException: 231 exception!
+2014-08-29 10:44:09,467 ERROR [Mina] - A0000038C19511EV3:both idle timeout!
+2014-08-29 10:44:09,467 ERROR [Mina] - A0000038C19511EV3 is offline!

@@ -1,0 +1,666 @@
+@charset "utf-8";
+@import "base/mixins";
+
+//搜索页样式
+.xz-search-wrap{
+	background-color: #f4f4f4;
+	height: 100%;
+}
+.input-mask{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	display: none;
+}
+.xz-hd{
+	background-color: #0bb5f1;
+	box-shadow: 0 0 10px #555;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.xz-search{
+	height: 132px;	
+	margin-top: 81px;
+	.search-main{
+		height: 103px;
+		width: 974px;
+		margin: 0 auto;
+		padding: 30px 0 0 26px;
+		background-color: #fff;
+		.search-con{
+			height: 36px;
+			.search-list{
+				margin:10px 0 10px 10px;
+				outline: 0;
+				li{
+					font-size: 14px;
+					color: #999;
+					height: 24px;
+					line-height: 24px;
+					cursor: pointer;
+					&:hover{
+						color: #1bc8f6;
+					}
+				}
+			}
+		}
+		.search-name-bwrap{
+			position: relative;
+			float: left;
+			.close-search-name{
+				display: none;
+				width: 10px;
+				height: 9px;
+				position: absolute;
+				top: 15px;
+				right: 48px;
+				z-index: 8;
+				cursor: pointer;
+				background: url(../img/search-sprite.png) -411px 0 no-repeat;
+			}
+		}
+		.search-name-wrap{
+			position: relative;
+			float: left;
+			margin-right: 20px;
+			user-select:none;
+			.arrow{
+				position: absolute;
+				top: 14px;
+				right: 7px;
+				width: 15px;
+				height: 11px;
+				cursor: pointer;
+			}
+			.arrow-up{
+				background: url(../img/search-sprite.png) -376px 0 no-repeat;
+			}
+		}
+		.choose-auto{
+			z-index: 10;
+			display: none;
+			position: absolute;
+			left: 0;
+			top: 35px;
+			border: 1px solid #17c7f5;
+			background-color: #fff;
+			overflow: hidden;
+			.input-tips,.input-none{
+				margin-left:14px;
+				margin-bottom: 14px;
+				font-size: 14px;
+				color: #999;
+			}
+			.input-none{
+				display: none;
+			}
+			.input-text-wrap{
+				border: 1px solid #17c7f5;
+				height: 27px;
+				border-radius: 25px;
+				margin: 10px 0 0 10px;
+				padding: 5px 0 0 20px;
+				.ajax-loading{
+					display: none;
+					position: absolute;
+					top: 20px;
+					right: 26px;
+					width: 16px;
+					height: 16px;
+					background: url(../img/ajaxLoading.gif) 0 0 no-repeat;
+				}
+				.input-text{
+					font-size: 14px;
+					color: #999;
+					outline: 0;
+					border:0;
+				}
+			}
+		}
+		.school-auto{			
+			width: 255px;
+			.school-input-wrap{
+				width: 212px;
+				.school-input{
+					width: 185px;
+				}
+			}
+			.school-search-list{
+				max-height: 120px;
+				width: 235px;
+				background-color: #fff;
+				overflow-x:hidden;
+				overflow-y: auto;
+				li{
+					width: 215px;
+					@include ellipsis;
+				}
+			}
+		}
+		.college-auto{
+			width: 205px;
+			.college-input-wrap{
+				width: 162px;
+				.college-input{
+					width: 135px;
+				}
+			}
+			.college-search-list{
+				max-height: 120px;
+				width: 185px;
+				overflow-x:hidden;
+				overflow-y: auto;
+				li{
+					width: 175px;
+					@include ellipsis;
+				}
+			}
+
+		}
+		.sort-auto,.price-auto{
+			width: 205px;
+			.sort-search-list,.price-search-list{
+				width: 185px;
+			}
+		}
+		.search-name{
+			float: left;
+			height: 22px;
+			outline: 0;
+			font-size: 14px;
+			line-height: 22px;
+			color: #999;
+			padding: 6px 45px 6px 10px;			@include ellipsis;
+		}
+		.school-name{
+			width: 200px;
+			border:1px solid #3ac7ff;
+			cursor: pointer; 
+		}
+		.sort-name,.price-name{
+			border:1px solid #3ac7ff; 
+			cursor: pointer;
+		}
+		.college-name,.sort-name,.price-name{
+			width: 150px;
+		}
+		.search-info{
+			clear: left;
+			overflow: hidden;
+			margin-top: 20px;
+			.search-result{
+				font-size: 18px;
+				float: left;
+				color: #666;
+				.result-num{
+					margin: 0 8px 0 8px;
+				}
+				.result-name{
+					color: #17c7f6;
+					margin: 0 5px;
+				}
+				.result-position{
+					margin:0 5px;
+					color: #17c7f6;
+				}
+			}	
+			.style-change{
+				float: right;
+				width: 93px;
+				height: 33px;
+				margin-right: 35px;
+				span{
+					float: left;
+					height: 33px;
+					cursor: pointer;
+				}
+				.style-list{
+					width: 46px;
+				}
+				.style-block{
+					width: 46px;
+				}
+			}
+		}
+	}
+}
+
+.xz-bd{
+	width: 100%;
+	min-height: 550px;
+	overflow: hidden;
+	.bd-main{
+		width: 1000px;
+		margin: 0 auto;
+		overflow: hidden;
+		padding-bottom: 70px;
+		background-color: #fff;
+	}
+	.result-bd{
+		overflow: hidden;
+	}
+	.loading{
+		width: 190px;
+		height: 37px;
+		margin: 5px auto;
+		position: relative;
+		p{
+			font-size: 28px;
+			color: #a7a7a7;
+			text-indent: 65px;
+		}
+		span{
+			position: absolute;
+			left: 10px;
+			top: 6px;
+			width: 30px;
+			height: 30px;
+			background: url(../img/ploading.gif) 0 0 no-repeat;
+		}
+	}
+	.load-over{
+		text-align: center;
+		font-size: 28px;
+		color: #a7a7a7;
+		display: none;
+	}
+
+	//搜索结果列表显示
+	.result-list>li{
+		width: 916px;
+		height: 148px;
+		border-bottom: 1px solid #f4f4f4;
+		padding: 10px 42px;
+		overflow: hidden;
+	}
+	.result-list{
+		border-top: 1px solid #f4f4f4;
+		.thumbnail{
+			position: relative;
+			float: left;
+			width: 200px;
+			height: 146px;
+			border: 1px solid #d7d7d7;
+			overflow: hidden;
+			.thumbnail-href{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+				outline: 0;
+			}
+			.pass-price{
+				position: absolute;
+				bottom: 4px;
+				right: 4px;
+				width: 103px;
+				height: 33px;
+				line-height: 33px;
+				text-align: center;
+				font-size: 18px;
+				color: #fefefe;
+				opacity: 0.9;
+				filter:alpha(opacity=90);
+				border-radius: 5px;
+			}
+			.free{
+				background-color: #25e62e;
+			}
+			.non-free{
+				background-color: #f27d27;
+			}
+		}
+		.thumbnail-bd{
+			width: 665px;
+			height: 140px;
+			float: right;
+			position: relative;
+			background-color: #fff;
+			.title-wrap{
+				overflow: hidden;
+				height: 35px;
+			}
+			.passage-source{
+				height: 20px;
+				line-height: 20px;
+				margin-top: 1px;
+				p{
+					float: left;
+					font-size: 12px;
+					color: #c7c7c7;
+				}
+				.parting-line{
+					width: 40px;
+					height: 20px;
+					text-align: center;
+				}
+				.school-ico{
+					width: 18px;
+					height: 18px;
+					margin: 2px 5px 0 0;
+					background: url(../img/search-sprite.png) -290px -0px no-repeat;				}
+				.form-school{
+					width: 185px;
+					@include ellipsis;
+					text-align: center;
+				}
+				.form-user{
+					width: 100px;
+					@include ellipsis;
+					text-align: center;
+				}
+			}	
+			.passage-title{
+				float: left;
+				font-size: 24px;
+				color: #333;
+				font-weight: 300;
+				width: 550px;
+				height: 35px;
+				@include ellipsis;
+				a{
+					text-decoration: none;
+					color: #333;
+				}
+			}
+			.passage-style{
+				float: right;				
+				width: 29px;
+				height: 29px;
+			}
+			.unknow{
+				background: url(../img/sprite.png) -64px -52px no-repeat;
+			}
+			.doc,.docx{
+				background: url(../img/doc.png) center top no-repeat;
+			}
+			.jpg{
+				background: url(../img/jpng.png) center top no-repeat;
+			}
+			.pdf{
+				background: url(../img/pdf.png) center top no-repeat;
+			}
+			.ppt{
+				background: url(../img/ppt.png) center top no-repeat;
+			}
+			.rar{
+				background: url(../img/rar.png) center top no-repeat;
+			}
+			.txt{
+				background: url(../img/txt.png) center top no-repeat;
+			}
+			.xls{
+				background: url(../img/xls.png) center top no-repeat;
+			}
+			.passage-info{
+				overflow: hidden;
+				clear: left;
+				margin-top:15px;
+				height: 48px;
+				.passage-voice{
+					width: 104px;
+					height: 22px;
+					background: url(../img/search-sprite.png) -186px -0px no-repeat;;
+				}
+				.passage-intro{
+					width: 665px;
+					font-size: 14px;
+					color:#999;
+					line-height: 24px;
+					float: left;
+				}			
+			}
+			.passage-detail{
+				overflow: hidden;
+				margin-top: 12px;
+				li{
+					float: left;
+					font-size: 14px;
+					color: #949494;
+					margin-right: 45px;
+					.view-ico{
+						@include inline-block;
+						width: 20px;
+						height: 11px;
+						vertical-align: 0px;
+						*vertical-align:3px;
+						background: url(../img/search-sprite.png) -391px -0px no-repeat;
+					}
+					.download-ico{
+						@include inline-block;
+						width: 14px;
+						height: 13px;
+						vertical-align: -2px;
+						*vertical-align:3px;
+						background: url(../img/search-sprite.png) -334px 0px no-repeat;
+					}
+					.reputation-ico{
+						@include inline-block;
+						width: 13px;
+						height: 13px;
+						vertical-align: -2px;
+						*vertical-align:3px;
+						background: url(../img/search-sprite.png) -348px 0 no-repeat;
+					}
+					.star{
+						margin-left: 5px;
+						i{
+							@include inline-block;
+							width: 13px;
+							height: 13px;
+							*vertical-align:3px;
+						}
+						.all-star{
+							background: url(../img/search-sprite.png) -309px 0px no-repeat;
+						}
+						.half-star{
+							background: url(../img/search-sprite.png) -321px 0px no-repeat;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	//搜索结果块显示
+	.result-block{
+		width: 1000px;
+		overflow: hidden;
+		border-top:1px solid #f4f4f4;
+		display: none;
+		li{
+			float: left;
+			width: 233px;
+			height: 349px;
+			background-color: #fff;	
+			border-right:1px solid #f4f4f4;
+			border-bottom:1px solid #f4f4f4;
+			padding:8px;
+			.thumbnail{
+				width: 228px;
+				height: 170px;
+				border: 1px solid #d3d3d3;
+				position: relative;
+				cursor: pointer;
+				overflow: hidden;
+				.thumbnail-a{
+					overflow: hidden;
+					display: block;
+				}
+				&:hover{
+					.pass-price {
+						display: none;
+					}
+					.thumbnail-mask{
+						opacity: 0.8;
+						filter:alpha(opacity = 80);
+					}
+				}
+				.thumbnail-mask{
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 208px;
+					height: 140px;
+					padding: 15px 10px;
+					background-color: #17c7f5;
+					opacity: 0;
+					// visibility: hidden;
+					overflow: hidden;
+					filter:alpha(opacity = 0);
+					transition: all 0.3s linear;
+					p{
+						font-size: 12px;
+						color: #fff;
+						line-height: 26px;
+					}
+				}
+				.pass-price{
+					position: absolute;
+					bottom: 4px;
+					right: 4px;
+					width: 103px;
+					height: 33px;
+					line-height: 33px;
+					text-align: center;
+					font-size: 18px;
+					color: #fefefe;
+					opacity: 0.9;
+					filter:alpha(opacity=90);
+					border-radius: 5px;
+				}
+				.free{
+					background-color: #25e62e;
+				}
+				.non-free{
+					background-color: #f27d27;
+				}
+			}
+			.thumbnail-bd{
+				height: 175px;
+				width: 230px;
+				.passage-title{
+					font-size: 18px;
+					color: #333;
+					width: 230px;
+					height: 24px;
+					@include ellipsis;
+					font-weight: 300;
+					margin-top: 5px;
+					a{
+						color: #333;
+						text-decoration: none;
+					}
+				}
+				.passage-source{
+					height: 75px;
+					margin-top: 20px;
+					p{
+						float: left;
+						font-size: 12px;
+						color: #666;
+					}
+					.school-ico{
+						width: 18px;
+						height: 18px;
+						margin: 1px 5px 0 0;
+						background: url(../img/search-sprite.png) -290px -0px no-repeat;
+					}
+					.form-school{
+						width: 200px;
+						@include ellipsis;					
+					}
+					.upload-date{
+						clear: left;
+						width: 70px;
+					}
+					.form-date{
+						float: left;
+					}
+					.passage-info{
+						clear: left;
+						span{
+							color: #ff0000;
+						}
+					}
+					.reputation{
+						clear: left;
+						.star{
+							margin-left: 5px;
+							i{
+								@include inline-block;
+								width: 13px;
+								height: 13px;
+								vertical-align: -2px;
+								*vertical-align:2px;
+							}
+							.all-star{
+								background: url(../img/search-sprite.png) -309px 0px no-repeat;
+							}
+							.half-star{
+								background: url(../img/search-sprite.png) -321px 0px no-repeat;
+							}
+						}
+					}
+				}
+				.uploader{
+					height: 35px;
+					line-height: 35px;
+					width: 230px;
+					margin-top: 15px;
+					.uploader-voice{
+						width: 104px;
+						height: 22px;
+						float: left;
+						margin-top: 6px;
+					}
+					.uploader-img{
+						float: right;
+						width: 34px;
+						height: 34px;
+						background: #ccc;
+						border-radius: 34px;
+						margin-left: 3px;
+					}
+					.uploader-name{
+						float: right;
+						width: 75px;
+						height: 34px;
+						line-height: 34px;
+						font-size: 12px;
+						color: #666;
+						text-align: right;
+						@include ellipsis;
+					}
+				}	
+			}
+		}
+	}
+}
+
+//学院选择状态
+.college-name-not{
+	border:1px solid #D2D2D2;
+	cursor: not-allowed;
+}
+.college-name-allow{
+	border:1px solid #3ac7ff;
+	cursor: pointer;
+}
+.arrow-down{
+	background: url(../img/search-sprite.png) -361px 0 no-repeat;
+}
+.arrow-not{
+	background: url(../img/not-allow.png) 0 0 no-repeat;
+}
+
+
+
+
+
+

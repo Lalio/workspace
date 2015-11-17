@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fcv.vms.dao">
+
+	<class name="com.fcv.vms.dao.PassRailLog" table="passRailLog"
+		lazy="false">
+
+		<id name="id" type="java.lang.Integer" column="ID">
+			<generator class="identity" />
+		</id>
+		<property name="vin" type="java.lang.String" column="vin"
+			length="20" />
+		<property name="lat" type="java.lang.Float" column="lat"
+			length="8" />
+		<property name="lng" type="java.lang.Float" column="lng"
+			length="8" />
+
+		<property name="status" type="java.lang.Integer" column="status"
+			length="4" />
+		<property name="time" type="java.util.Date" column="time"
+			length="8" />
+		<property name="railIds" type="java.lang.String" column="railIds"
+			length="200" />
+		<property name="roundIds" type="java.lang.String" column="roundIds"
+			length="200" />
+		<property name="rectangularIds" type="java.lang.String"
+			column="rectangularIds" length="200" />
+		<!-- associations -->
+
+	</class>
+</hibernate-mapping>

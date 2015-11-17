@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fcv.vms.pojo">
+
+	<class name="WarnStat" table="warnstat_new" lazy="false">
+
+		<id name="id" type="java.lang.Integer" column="id">
+			<generator class="identity" />
+		</id>
+
+		<property name="vin" type="java.lang.String" column="vin"
+			length="20" />
+		<property name="dParamId" type="java.lang.Integer" column="dParamId"
+			length="10" />
+		<property name="startTime" type="java.util.Date" column="startTime" />
+		<property name="endTime" type="java.util.Date" column="endTime" />
+		<property name="warnName" type="java.lang.String" column="warnName"
+			length="50" />
+		<property name="detail" type="java.lang.String" column="detail"
+			length="50" />
+		<property name="warnTime" type="java.lang.Integer" column="warnTime"
+			length="10" />
+		<property name="warnSystem" type="java.lang.String" column="WarnSystem"
+			length="20" />
+		<property name="isOver" type="java.lang.Integer" column="isOver"
+			length="10" />
+
+	</class>
+</hibernate-mapping>

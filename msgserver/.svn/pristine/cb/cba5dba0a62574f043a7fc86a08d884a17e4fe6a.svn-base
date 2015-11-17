@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.fcv.vms.dao">
+ <class lazy="false" name="com.fcv.vms.dao.RectangularAreaToTerminal" table="rectangularAreaToTerminal">
+  <composite-id name="pk" class="PK_AreaToTerminal">
+      <key-property name="regId" column="regId" type="java.lang.Integer"/>
+      <key-property name="areaId" column="areaId" type="java.lang.Integer"/>
+  </composite-id>
+  <property column="areaName" 
+   length="100" name="areaName" type="java.lang.String"/>
+  <!-- associations -->
+ </class>
+</hibernate-mapping>

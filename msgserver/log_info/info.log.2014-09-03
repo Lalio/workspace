@@ -1,0 +1,45 @@
+2014-09-03 09:28:30,165 ERROR [Mina] - New Connect VIN:A0000038C190712V3
+2014-09-03 09:28:31,585 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 231
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-03 09:28:31,601 ERROR [Mina] - A0000038C190712V3java.lang.ArrayIndexOutOfBoundsException: 231 exception!
+2014-09-03 09:28:33,193 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-03 09:28:33,209 ERROR [Mina] - A0000038C190712V3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-09-03 12:43:30,326 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.ArrayIndexOutOfBoundsException: 226
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:75)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-03 12:43:30,326 ERROR [Mina] - A0000038C190712V3java.lang.ArrayIndexOutOfBoundsException: 226 exception!
+2014-09-03 16:53:45,853 ERROR [Mina] - A0000038C190712V3:both idle timeout!
+2014-09-03 16:53:45,853 ERROR [Mina] - A0000038C190712V3 is offline!

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fcv.vms.dao">
+
+	<class name="Data" table="data" lazy="false">
+	
+		<id name="id" type="java.lang.Integer" column="ID">
+			<generator class="identity" />
+		</id>
+
+		<property name="sn" type="java.lang.Integer" column="SN"
+			length="1" />
+		<property name="vin" type="java.lang.String" column="VIN"
+			length="20" />
+		<property name="time" type="java.util.Date" column="Time"
+			length="8" />
+		<property name="datas" type="binary" column="Datas" length="80" />
+		
+		<property name="locateIsValid" type="java.lang.Integer"
+			column="LocateIsValid" length="4" />
+		<property name="locateTime" type="java.util.Date" column="LocateTime"
+			length="8" />
+		<property name="locateLongitude" type="java.lang.Float"
+			column="LocateLongitude" length="8" />
+		<property name="locateLatitude" type="java.lang.Float"
+			column="LocateLatitude" length="8" />
+		<property name="locateSpeed" type="java.lang.Float" column="LocateSpeed"
+			length="8" />
+		<property name="locateDirection" type="java.lang.Float"
+			column="LocateDirection" length="8" />
+
+	</class>
+</hibernate-mapping>

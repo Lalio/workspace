@@ -1,0 +1,3 @@
+连接SQL server,MySQL和Oracle的区别：
+1.连接方式--修改文件hibernate.cfg.xml的2处地方
+2.hbm配置--修改文件Statistic.hbm.xml和Status.hbm.xml的1处地方

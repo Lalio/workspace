@@ -1,0 +1,25 @@
+2013-05-29 13:45:24,953 INFO [Mina] - New Connect VIN:LSLCP0TR19S110013
+2013-05-29 13:52:09,703 INFO [Mina] - New Connect VIN:LSLCP0TR19S110013
+2013-05-29 13:56:45,093 INFO [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:180)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:42)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:568)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:547)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:539)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:57)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:867)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:65)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2013-05-29 13:56:45,093 INFO [Mina] - LSLCP0TR19S110013java.io.IOException: 远程主机强迫关闭了一个现有的连接。 exception!
+2013-05-29 13:56:45,109 INFO [Mina] - LSLCP0TR19S110013 is offline!
+2013-05-29 13:57:03,812 INFO [Mina] - New Connect VIN:LSLCP0TR19S110013
+2013-05-29 13:59:13,921 INFO [Mina] - LSLCP0TR19S110013:both idle timeout!
+2013-05-29 13:59:13,937 INFO [Mina] - LSLCP0TR19S110013 is offline!

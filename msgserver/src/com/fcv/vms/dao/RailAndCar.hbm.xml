@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fcv.vms.dao">
+
+	<class name="com.fcv.vms.dao.RailAndCar" table="railAndCar" lazy="false">
+
+		<id name="id" type="java.lang.Integer" column="ID">
+			<generator class="identity" />
+		</id>
+		<property name="rid" type="java.lang.Integer" column="Rid"
+			length="4" />
+		<property name="railName" type="java.lang.String" column="RailName"
+			length="50" />
+		<property name="cid" type="java.lang.Integer" column="Cid"
+			length="4" />
+
+		<property name="cname" type="java.lang.String" column="Cname"
+			length="50" />
+		<property name="cvin" type="java.lang.String" column="Cvin"
+			length="20" />
+		<!-- associations -->
+
+	</class>
+</hibernate-mapping>

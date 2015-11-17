@@ -1,0 +1,1080 @@
+2014-11-05 13:00:51,910 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 13:00:54,610 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 13:00:54,610 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 13:00:55,359 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 13:00:55,359 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 13:03:56,226 ERROR [Mina] - A0000038C19509EV3:both idle timeout!
+2014-11-05 13:03:56,226 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 13:04:22,607 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 13:13:39,435 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 13:13:39,435 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 13:26:25,741 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 13:26:25,741 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 13:36:36,826 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 13:36:36,842 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 13:38:10,334 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 13:38:10,334 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 13:42:13,929 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 13:42:13,929 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 13:47:56,039 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 13:47:56,039 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 13:49:24,055 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 13:49:24,070 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 14:09:55,444 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 14:09:55,444 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 14:09:57,395 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:09:57,395 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 14:09:59,908 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:09:59,923 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 14:10:00,533 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:10:00,533 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 14:10:03,247 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:10:03,247 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 14:10:06,056 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:10:06,056 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 14:10:09,895 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:10:09,895 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 14:10:11,970 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:10:11,970 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 14:10:14,655 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:10:14,655 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 14:10:21,364 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:10:21,364 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 14:15:48,388 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:15:48,404 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 14:19:56,430 ERROR [Mina] - A0000038C19509EV3:both idle timeout!
+2014-11-05 14:19:56,430 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 14:25:43,328 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 14:25:45,903 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:25:45,903 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 14:26:58,070 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 14:26:58,070 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 14:26:59,818 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 14:26:59,818 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 14:42:07,054 ERROR [Mina] - A0000038C19509EV3:both idle timeout!
+2014-11-05 14:42:07,054 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 14:45:14,006 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 14:45:59,559 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 14:45:59,559 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 14:57:38,613 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 14:57:38,613 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 15:05:15,882 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:05:15,882 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 15:13:15,958 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:13:15,974 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 15:17:15,654 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:17:15,686 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 15:24:11,973 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 15:24:11,973 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 15:25:21,753 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 15:25:21,753 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 15:25:22,939 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:25:22,939 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 15:26:28,616 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:26:28,632 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 15:27:37,647 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:27:37,647 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 15:35:24,308 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:35:24,308 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 15:46:00,431 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:46:00,447 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 15:48:31,971 ERROR [Mina] - New Connect VIN:
+2014-11-05 15:48:34,327 ERROR [org.hibernate.util.JDBCExceptionReporter] - ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+2014-11-05 15:48:34,343 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:242)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:101)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:94)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.loader.Loader.doList(Loader.java:2231)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2125)
+	at org.hibernate.loader.Loader.list(Loader.java:2120)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:312)
+	at org.hibernate.impl.SessionImpl.listCustomQuery(SessionImpl.java:1722)
+	at org.hibernate.impl.AbstractSessionImpl.list(AbstractSessionImpl.java:165)
+	at org.hibernate.impl.SQLQueryImpl.list(SQLQueryImpl.java:175)
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:234)
+	... 11 more
+Caused by: java.sql.SQLException: ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:745)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:215)
+	at oracle.jdbc.driver.T4CCallableStatement.executeForRows(T4CCallableStatement.java:965)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1170)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3339)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3445)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4394)
+	at com.mchange.v2.c3p0.impl.NewProxyCallableStatement.execute(NewProxyCallableStatement.java:3044)
+	at org.hibernate.dialect.Oracle9Dialect.getResultSet(Oracle9Dialect.java:319)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:215)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1805)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:697)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:259)
+	at org.hibernate.loader.Loader.doList(Loader.java:2228)
+	... 18 more
+2014-11-05 15:48:34,343 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 15:48:34,874 ERROR [Mina] - A0000038C19509EV3java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query exception!
+2014-11-05 15:48:34,874 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 15:48:59,600 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 15:48:59,600 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 15:49:01,177 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:49:01,177 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 15:49:02,738 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:49:02,738 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 15:49:05,001 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:49:05,001 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 15:49:06,063 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:49:06,063 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 15:50:19,789 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:50:19,789 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 15:50:31,069 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:50:31,069 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 15:50:31,710 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:50:31,710 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 15:56:19,918 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 15:56:19,918 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 15:56:21,479 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:56:21,479 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 15:57:40,463 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:57:40,463 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 15:59:10,102 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 15:59:10,134 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 16:04:30,059 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 16:04:30,059 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 16:04:31,808 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 16:04:31,808 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 16:13:04,628 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 16:13:04,628 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 16:24:27,895 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 16:24:27,895 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 16:32:18,517 ERROR [Mina] - A0000038C19509EV3:both idle timeout!
+2014-11-05 16:32:18,517 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 16:33:33,913 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 16:33:36,520 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 16:33:36,520 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 16:33:37,332 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 16:33:37,332 ERROR [Mina] - A0000038C19509EV3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-11-05 16:45:23,467 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 16:45:23,499 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 16:49:35,065 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 16:49:35,065 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 16:55:05,303 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 16:55:05,303 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 17:08:08,348 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:108)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 17:08:08,363 ERROR [Mina] - A0000038C19509EV3java.lang.IllegalArgumentException exception!
+2014-11-05 17:27:43,374 ERROR [Mina] - New Connect VIN:
+2014-11-05 17:27:43,469 ERROR [org.hibernate.util.JDBCExceptionReporter] - ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+2014-11-05 17:27:43,469 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:242)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:101)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:94)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.loader.Loader.doList(Loader.java:2231)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2125)
+	at org.hibernate.loader.Loader.list(Loader.java:2120)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:312)
+	at org.hibernate.impl.SessionImpl.listCustomQuery(SessionImpl.java:1722)
+	at org.hibernate.impl.AbstractSessionImpl.list(AbstractSessionImpl.java:165)
+	at org.hibernate.impl.SQLQueryImpl.list(SQLQueryImpl.java:175)
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:234)
+	... 11 more
+Caused by: java.sql.SQLException: ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:745)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:215)
+	at oracle.jdbc.driver.T4CCallableStatement.executeForRows(T4CCallableStatement.java:965)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1170)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3339)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3445)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4394)
+	at com.mchange.v2.c3p0.impl.NewProxyCallableStatement.execute(NewProxyCallableStatement.java:3044)
+	at org.hibernate.dialect.Oracle9Dialect.getResultSet(Oracle9Dialect.java:319)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:215)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1805)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:697)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:259)
+	at org.hibernate.loader.Loader.doList(Loader.java:2228)
+	... 18 more
+2014-11-05 17:27:43,469 ERROR [Mina] - java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query exception!
+2014-11-05 17:27:44,124 ERROR [Mina] - New Connect VIN:
+2014-11-05 17:27:44,139 ERROR [org.hibernate.util.JDBCExceptionReporter] - ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+2014-11-05 17:27:44,139 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:242)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:101)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:94)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.loader.Loader.doList(Loader.java:2231)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2125)
+	at org.hibernate.loader.Loader.list(Loader.java:2120)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:312)
+	at org.hibernate.impl.SessionImpl.listCustomQuery(SessionImpl.java:1722)
+	at org.hibernate.impl.AbstractSessionImpl.list(AbstractSessionImpl.java:165)
+	at org.hibernate.impl.SQLQueryImpl.list(SQLQueryImpl.java:175)
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:234)
+	... 11 more
+Caused by: java.sql.SQLException: ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:745)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:215)
+	at oracle.jdbc.driver.T4CCallableStatement.executeForRows(T4CCallableStatement.java:965)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1170)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3339)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3445)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4394)
+	at com.mchange.v2.c3p0.impl.NewProxyCallableStatement.execute(NewProxyCallableStatement.java:3044)
+	at org.hibernate.dialect.Oracle9Dialect.getResultSet(Oracle9Dialect.java:319)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:215)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1805)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:697)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:259)
+	at org.hibernate.loader.Loader.doList(Loader.java:2228)
+	... 18 more
+2014-11-05 17:27:44,139 ERROR [Mina] -  is offline!
+2014-11-05 17:27:44,139 ERROR [Mina] - java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query exception!
+2014-11-05 17:27:51,815 ERROR [Mina] - New Connect VIN:
+2014-11-05 17:27:51,815 ERROR [org.hibernate.util.JDBCExceptionReporter] - ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+2014-11-05 17:27:51,815 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:242)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:101)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:94)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.loader.Loader.doList(Loader.java:2231)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2125)
+	at org.hibernate.loader.Loader.list(Loader.java:2120)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:312)
+	at org.hibernate.impl.SessionImpl.listCustomQuery(SessionImpl.java:1722)
+	at org.hibernate.impl.AbstractSessionImpl.list(AbstractSessionImpl.java:165)
+	at org.hibernate.impl.SQLQueryImpl.list(SQLQueryImpl.java:175)
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:234)
+	... 11 more
+Caused by: java.sql.SQLException: ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:745)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:215)
+	at oracle.jdbc.driver.T4CCallableStatement.executeForRows(T4CCallableStatement.java:965)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1170)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3339)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3445)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4394)
+	at com.mchange.v2.c3p0.impl.NewProxyCallableStatement.execute(NewProxyCallableStatement.java:3044)
+	at org.hibernate.dialect.Oracle9Dialect.getResultSet(Oracle9Dialect.java:319)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:215)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1805)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:697)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:259)
+	at org.hibernate.loader.Loader.doList(Loader.java:2228)
+	... 18 more
+2014-11-05 17:27:51,830 ERROR [Mina] - java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query exception!
+2014-11-05 17:27:53,204 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 17:27:53,751 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 17:28:00,709 ERROR [Mina] - New Connect VIN:
+2014-11-05 17:28:00,709 ERROR [org.hibernate.util.JDBCExceptionReporter] - ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+2014-11-05 17:28:00,709 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:242)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:101)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:94)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.loader.Loader.doList(Loader.java:2231)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2125)
+	at org.hibernate.loader.Loader.list(Loader.java:2120)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:312)
+	at org.hibernate.impl.SessionImpl.listCustomQuery(SessionImpl.java:1722)
+	at org.hibernate.impl.AbstractSessionImpl.list(AbstractSessionImpl.java:165)
+	at org.hibernate.impl.SQLQueryImpl.list(SQLQueryImpl.java:175)
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:234)
+	... 11 more
+Caused by: java.sql.SQLException: ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:745)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:215)
+	at oracle.jdbc.driver.T4CCallableStatement.executeForRows(T4CCallableStatement.java:965)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1170)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3339)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3445)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4394)
+	at com.mchange.v2.c3p0.impl.NewProxyCallableStatement.execute(NewProxyCallableStatement.java:3044)
+	at org.hibernate.dialect.Oracle9Dialect.getResultSet(Oracle9Dialect.java:319)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:215)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1805)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:697)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:259)
+	at org.hibernate.loader.Loader.doList(Loader.java:2228)
+	... 18 more
+2014-11-05 17:28:00,724 ERROR [Mina] - java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query exception!
+2014-11-05 17:28:01,443 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 17:28:03,549 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 17:28:10,195 ERROR [Mina] - New Connect VIN:A0000038C19509EV3
+2014-11-05 17:28:10,195 ERROR [Mina] - A0000038C19509EV3 is offline!
+2014-11-05 17:29:10,303 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:180)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:42)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:568)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:547)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:539)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:57)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:867)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:65)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-11-05 17:29:10,303 ERROR [Mina] - A0000038C19509EV3java.io.IOException: 远程主机强迫关闭了一个现有的连接。 exception!
+2014-11-05 17:29:10,303 ERROR [Mina] - A0000038C19509EV3 is offline!

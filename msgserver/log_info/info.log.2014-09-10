@@ -1,0 +1,582 @@
+2014-09-10 08:22:22,396 ERROR [Mina] - New Connect VIN:A0000038C190712V3
+2014-09-10 08:22:23,832 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 08:22:23,832 ERROR [Mina] - A0000038C190712V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:47:32,974 ERROR [Mina] - New Connect VIN:A0000038C18F9D9V3
+2014-09-10 09:47:34,800 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:47:34,800 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:49:47,918 ERROR [Mina] - New Connect VIN:A0000038C18F9D9V3
+2014-09-10 09:49:47,918 ERROR [Mina] - A0000038C18F9D9V3 is offline!
+2014-09-10 09:49:50,462 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:49:50,462 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:49:54,784 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:49:54,784 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:49:59,044 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:49:59,044 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:50:03,303 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:50:03,303 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:50:19,405 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:50:19,405 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:50:29,764 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:50:29,764 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:50:34,039 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:50:34,039 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:50:38,393 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:50:38,393 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:51:16,459 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:51:16,459 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:51:23,090 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:51:23,090 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:51:29,690 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.getString(AbstractIoBuffer.java:1776)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:65)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:51:29,690 ERROR [Mina] - A0000038C18F9D9V3java.nio.charset.MalformedInputException: Input length = 1 exception!
+2014-09-10 09:52:37,411 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:52:37,411 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:52:47,350 ERROR [org.hibernate.util.JDBCExceptionReporter] - ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "SFCV.J_UPDATEINFO", line 15
+ORA-06512: at line 1
+
+2014-09-10 09:52:47,350 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.Exception: org.hibernate.exception.SQLGrammarException: could not execute query
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:186)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute query
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.loader.Loader.doList(Loader.java:2231)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2125)
+	at org.hibernate.loader.Loader.list(Loader.java:2120)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:312)
+	at org.hibernate.impl.SessionImpl.listCustomQuery(SessionImpl.java:1722)
+	at org.hibernate.impl.AbstractSessionImpl.list(AbstractSessionImpl.java:165)
+	at org.hibernate.impl.SQLQueryImpl.list(SQLQueryImpl.java:175)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:176)
+	... 11 more
+Caused by: java.sql.SQLException: ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "SFCV.J_UPDATEINFO", line 15
+ORA-06512: at line 1
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:745)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:215)
+	at oracle.jdbc.driver.T4CCallableStatement.executeForRows(T4CCallableStatement.java:965)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1170)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3339)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3445)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4394)
+	at com.mchange.v2.c3p0.impl.NewProxyCallableStatement.execute(NewProxyCallableStatement.java:3044)
+	at org.hibernate.dialect.Oracle9Dialect.getResultSet(Oracle9Dialect.java:319)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:215)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1805)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:697)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:259)
+	at org.hibernate.loader.Loader.doList(Loader.java:2228)
+	... 18 more
+2014-09-10 09:52:47,365 ERROR [Mina] - A0000038C18F9D9V3java.lang.Exception: org.hibernate.exception.SQLGrammarException: could not execute query exception!
+2014-09-10 09:53:21,391 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.BufferUnderflowException
+	at java.nio.Buffer.nextGetIndex(Unknown Source)
+	at java.nio.HeapByteBuffer.get(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.get(AbstractIoBuffer.java:493)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:73)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:53:21,391 ERROR [Mina] - A0000038C18F9D9V3java.nio.BufferUnderflowException exception!
+2014-09-10 09:53:49,144 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:53:49,144 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:55:22,139 ERROR [Mina] - A0000038C18F9D9V3 is offline!
+2014-09-10 09:55:22,139 ERROR [Mina] - New Connect VIN:A0000038C18F9D9V3
+2014-09-10 09:55:23,544 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:55:23,544 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:55:27,773 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:55:27,773 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:55:39,193 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:55:39,193 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:55:40,645 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:55:40,645 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:55:44,905 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:55:44,905 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:55:49,133 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:55:49,133 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 09:55:50,304 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 09:55:50,304 ERROR [Mina] - A0000038C18F9D9V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 11:02:53,838 ERROR [Mina] - A0000038C18F9D9V3:both idle timeout!
+2014-09-10 11:02:53,838 ERROR [Mina] - A0000038C18F9D9V3 is offline!
+2014-09-10 16:24:27,681 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 16:24:27,712 ERROR [Mina] - A0000038C190712V3org.apache.mina.filter.codec.ProtocolDecoderException: java.nio.BufferOverflowException (Hexdump: 33 00 2D 25 41 30 30 30 30 30 33 38 43 31 39 30 37 31 32 56 33 6E 00 5C 09 FB 78 75 01 3E 01 55 01 46 44 FA 0B 60 86 54 6F 40 01 3F 11 4D 11 4D 11 4D 01 4D 11 4D 11 4D 11 4D 01 4D 11 4D 11 4D 11 40 01 40 11 40 11 40 11 40 01 40 11 40 11 40 11 40 01 40 11 40 11 40 11 3E 01 3E 21 3E 21 3E 21 3E 01 3E 21 3E 21 3E 21 42 01 43 21 44 21 44 21 43 01 43 21 44 21 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4D 01 4D 31 4D 31 4D 31 4D 01 4D 31 4D 31 4D 31 41 01 43 31 43 31 44 31 43 01 43 31 44 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4D 01 4D 41 4D 41 4D 41 4D 01 4D 41 4D 41 4D 41 4D 01 4D 41 4D 41 4D 41 4D 01 4D 41 4D 41 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 42 08 18 15 0A 09 0E 41 29 29 32 14 4E 7B 1C 44 23 45 00 01 0E AC EE) exception!
+2014-09-10 16:24:27,712 ERROR [Mina] - A0000038C190712V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 16:25:55,433 ERROR [Mina] - New Connect VIN:A0000038C190712V3
+2014-09-10 16:25:55,433 ERROR [Mina] - A0000038C190712V3 is offline!
+2014-09-10 16:27:10,971 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.getString(AbstractIoBuffer.java:1776)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:65)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 16:27:10,971 ERROR [Mina] - A0000038C190712V3java.nio.charset.MalformedInputException: Input length = 1 exception!
+2014-09-10 16:29:20,673 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.IllegalArgumentException
+	at java.nio.Buffer.position(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.position(AbstractIoBuffer.java:369)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:71)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 16:29:20,673 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 16:29:20,689 ERROR [Mina] - A0000038C190712V3java.lang.IllegalArgumentException exception!
+2014-09-10 16:29:20,689 ERROR [Mina] - A0000038C190712V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 16:31:07,411 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.getString(AbstractIoBuffer.java:1776)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:65)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 16:31:07,411 ERROR [Mina] - A0000038C190712V3java.nio.charset.MalformedInputException: Input length = 1 exception!
+2014-09-10 16:33:37,065 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.getString(AbstractIoBuffer.java:1776)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:65)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 16:33:38,127 ERROR [Mina] - A0000038C190712V3java.nio.charset.MalformedInputException: Input length = 1 exception!
+2014-09-10 16:38:25,142 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:107)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 16:38:25,158 ERROR [Mina] - A0000038C190712V3org.apache.mina.filter.codec.ProtocolDecoderException: java.lang.IllegalArgumentException (Hexdump: 33 00 4D 26 41 30 30 30 30 30 33 38 43 31 39 30 37 31 32 56 33 6E 01 44 51 44 51 44 51 43 01 43 51 44 51 49 51 4D 01 4D 51 4D 51 4D 51 4D 01 4D 51 4D 51 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 42 01 43 61 44 61 44 61 43 01 43 61 44 61 49 61 41 01 43 61 43 61 43 61 43 01 43 61 43 61 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 42 01 43 71 43 71 43 71 43 01 43 71 44 71 49 71 42 01 43 71 43 71 43 71 3E 01 3E 71 3E 71 3E 71 3E 01 3E 71 3E 71 3E 71 3E 01 3E 71 3E 71 3E 71 3E 01 3E 81 3E 81 3E 81 3E 01 3E 81 3E 81 3E 81 3E 01 3E 81 3E 81 3E 81 41 01 43 81 43 81 43 81 43 01 43 81 43 81 49 81 42 01 43 81 42 81 00 00 55 01 54 91 55 91 55 91 55 01 55 91 55 91 55 91 55 01 55 91 55 08 26 18 0A 09 0E 41 29 29 31 4B 4E 7B 1C 44 18 45 00 01 0E 23 EE) exception!
+2014-09-10 16:38:25,158 ERROR [Mina] - A0000038C190712V3java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2014-09-10 16:41:24,484 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.BufferUnderflowException
+	at java.nio.Buffer.nextGetIndex(Unknown Source)
+	at java.nio.HeapByteBuffer.get(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.get(AbstractIoBuffer.java:493)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:73)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 16:41:24,500 ERROR [Mina] - A0000038C190712V3org.apache.mina.filter.codec.ProtocolDecoderException: java.nio.BufferOverflowException (Hexdump: 33 00 4D C7 41 30 30 30 30 30 33 38 43 31 39 30 37 31 32 56 33 6E 01 44 51 44 51 44 51 43 01 43 51 44 51 49 51 4D 01 4D 51 4D 51 4D 51 4D 01 4D 51 4D 51 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 42 01 44 61 44 61 44 61 43 01 43 61 44 61 49 61 41 01 43 61 43 61 43 61 43 01 43 61 43 61 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 42 01 43 71 43 71 43 71 43 01 43 71 44 71 49 71 42 01 43 71 43 71 43 71 3E 01 3E 71 3E 71 3E 71 3E 01 3E 71 3E 71 3E 71 3E 01 3E 71 3E 71 3E 71 3E 01 3E 81 3E 81 3E 81 3E 01 3E 81 3E 81 3E 81 3E 01 3E 81 3E 81 3E 81 41 01 43 81 43 81 43 81 43 01 43 81 43 81 49 81 42 01 43 81 42 81 00 00 55 01 54 91 55 91 55 91 55 01 55 91 55 91 55 91 55 01 55 91 55 08 29 16 0A 09 0E 41 29 29 31 52 4E 7B 1C 44 18 45 00 01 0E DD EE 33 00 6D C8 41 30 30 30 30 30 33 38 43 31 39 30 37 31 32 56 33 6E 55 91 55 91 42 01 44 91 44 91 44 91 43 01 43 91 44 91 49 91 42 01 43 91 43 91 43 91 44 45 FF FF FF FF FF FF 44 44 FF FF FF FF FF FF 45 45 FF FF FF FF FF FF 45 45 FF FF FF FF FF FF 45 45 FF FF FF FF FF FF 44 44 FF FF FF FF FF FF 44 44 FF FF FF FF FF FF 44 44 FF FF FF FF FF FF 45 45 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F 20 21 22 23 24 25 26 27 28 29 2A 2B 2C 2D 2E 2F 30 31 32 33 34 35 36 37 38 39 3A 3B 3C 3D 3E 3F 40 41 42 43 44 45 46 47 48 49 4A 4B 4C 4D 4E 4F 50 51 08 29 17 0A 09 0E 41 29 29 31 52 4E 7B 1C 44 18 45 00 01 0E 14 EE) exception!
+2014-09-10 16:41:24,500 ERROR [Mina] - A0000038C190712V3java.nio.BufferUnderflowException exception!
+2014-09-10 16:45:00,050 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.getString(AbstractIoBuffer.java:1776)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:65)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 16:45:00,050 ERROR [Mina] - A0000038C190712V3java.nio.charset.MalformedInputException: Input length = 1 exception!
+2014-09-10 16:55:06,403 ERROR [Mina] - A0000038C190712V3:both idle timeout!
+2014-09-10 16:55:06,403 ERROR [Mina] - A0000038C190712V3 is offline!

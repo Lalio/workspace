@@ -1,0 +1,132 @@
+package com.fcv.vms.server;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.sql.Time;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.fcv.vms.model.HibernateModel;
+import com.fcv.vms.model.HibernateSessionFactory;
+
+public class TestData {
+    public static void main(String[] args) throws Exception {
+        spilt();
+    }
+    
+    public static void spilt() throws Exception {
+    	HibernateModel model = new HibernateModel();
+
+    	HibernateModel.createRegTable();
+        // 载入驱动
+        Class.forName("com.mysql.jdbc.Driver");
+        // 建立连接
+        Connection con = DriverManager
+                .getConnection(
+                        "jdbc:mysql://cenyanmysql.mysql.rds.aliyuncs.com:3306/vms?useUnicode=true&amp;zeroDateTimeBehavior=convertToNull&amp;characterEncoding=UTF-8",
+                        "cenyan", "cenyan");
+        // 创建状态
+        Statement stmt = con.createStatement();
+
+//        String allvin = "select datas from data limit 10";//"select distinct vin from data where vin not like 'A0000%' limit 100";
+        String allvin = "select distinct vin from data  order by vin desc limit 10";
+        ResultSet resultSet = stmt.executeQuery(allvin);
+        while (resultSet.next()) {
+            Statement stmt2 = con.createStatement();
+            String vin = resultSet.getString("vin");
+            System.out.println(vin);
+            if("A0000" != vin.substring(0, 4))
+				return ;
+           
+            model.createTable(vin);
+//            try {
+//                byte[] vin = resultSet.getBytes("datas");
+//                int i =0;
+////                System.out.println(vin.length);
+//                for (byte iterable_element : vin) {
+////                    ++i;
+////                    if(i == 16)
+////                    {
+////                        i=0;
+////                        System.out.println();
+////                    }
+////                    System.out.print(iterable_element);
+//                }
+                
+//                System.out.println(resultSet.getBytes("datas"));
+//                System.out.println();
+//                System.out.println(); System.out.println();
+//                String sql = "INSERT z_data_4206974723"+
+//                " (SN,VIN,Time,Datas,LocateIsValid,LocateTime,LocateLongitude,LocateLatitude,LocateSpeed,LocateDirection) "+
+//                " VALUES(1,'1','2015-06-27 12:59:09',?,1,'2015-06-27 12:59:09',1,1,1,1)";
+//                Session sess = HibernateSessionFactory.getSession();
+//                Query query = sess.createSQLQuery(sql);
+//                query.setBinary(0, vin);
+//                Transaction transaction = sess.beginTransaction();
+//                query.executeUpdate();
+//                transaction.commit();
+//                
+//                System.out.println(sql);
+//                stmt2.execute(sql);
+//                stmt2.close();
+                
+//                System.out.println(vin);
+//                int count = resultSet.getInt("count");
+//                String tableNameString = "z_data_" + getUnsignedInt (vin.hashCode());
+//                System.out.println(vin + " " + count + " " + tableNameString);
+//                Statement exitsStatement = con.createStatement();
+//                String exitSql = "select * from INFORMATION_SCHEMA.tables where table_name = '" + tableNameString + "'";
+//                exitsStatement.execute(exitSql);
+//                if(!exitsStatement.getResultSet().next())
+//                {
+//                    //create 
+//                    Statement createStatement = con.createStatement();
+//                    String sqlString = "CREATE TABLE " + tableNameString + " select * from data WHERE 1=2";
+//                    createStatement.execute(sqlString);
+//                    createStatement.close();
+//                } 
+//                else {
+//                    //drop
+//                    Statement dropStatement = con.createStatement();
+//                    String sqlString = "drop TABLE " + tableNameString;
+//                    dropStatement.execute(sqlString);
+//                    dropStatement.close();
+//                    
+//                    //create
+//                    Statement createStatement = con.createStatement();
+//                    String createString = "CREATE TABLE " + tableNameString + " select * from data WHERE 1=2";
+//                    createStatement.execute(createString);
+//                    createStatement.close();
+//                }
+//                
+//                exitsStatement.close();
+//
+//                Statement updateStatement = con.createStatement();
+//                String updateSql = "INSERT INTO " + tableNameString +" SELECT * FROM data WHERE data.vin='"+vin+"' ";
+//                updateStatement.execute(updateSql);
+////                updateStatement.close();
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//           
+        }
+//        
+//        //删除data表里的所有数据
+//        Statement createStatement = con.createStatement();
+//        String sqlString = "DELETE FROM data WHERE 1 = 1";
+//        createStatement.execute(sqlString);
+//        createStatement.close();
+//      
+        
+        
+        stmt.close();
+        con.close();
+    }
+    public static long getUnsignedInt(int x) {
+        return x & 0x00000000ffffffffL;
+    }
+}

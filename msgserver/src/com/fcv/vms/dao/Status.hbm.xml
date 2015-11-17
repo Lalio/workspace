@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping>
+
+	<class name="com.fcv.vms.dao.Status" table="status">
+		<id name="id">
+			<column name="id" />
+			<generator class="identity">
+				<param name="identity">ID</param>
+			</generator>
+		</id>
+		<property name="vin" column="vin" type="string" />
+		<property name="time" column="time" type="date" />
+		<property name="markValue" column="markValue" type="integer" />
+		<property name="datas" column="datas" type="binary" />
+		<property name="troubles" column="troubles" type="binary" />
+		<property name="locateIsValid" column="locateIsValid" type="integer" />
+		<property name="locateTime" column="locateTime" type="date" />
+		<property name="locateLongitude" column="locateLongitude"
+			type="float" />
+		<property name="locateLatitude" column="locateLatitude" type="float" />
+		<property name="locateSpeed" column="locateSpeed" type="float" />
+		<property name="locateDirection" column="locateDirection"
+			type="float" />
+		<property name="railStatus" column="railStatus" type="integer" />
+	</class>
+
+	<!-- 查询存储过程 -->
+	<sql-query name="getStatusId" callable="true"> <!-- getStatisticId为存储过程名名字 -->
+		<return alias="Status" class="com.fcv.vms.dao.Status">
+			<return-property name="id" column="id" />
+			<return-property name="vin" column="vin" />
+			<return-property name="time" column="time" />
+			<return-property name="markValue" column="markValue" />
+			<return-property name="datas" column="datas" />
+			<return-property name="troubles" column="troubles" />
+			<return-property name="locateIsValid" column="locateIsValid" />
+			<return-property name="locateTime" column="locateTime" />
+			<return-property name="locateLongitude" column="locateLongitude" />
+			<return-property name="locateLatitude" column="locateLatitude" />
+			<return-property name="locateSpeed" column="locateSpeed" />
+			<return-property name="locateDirection" column="locateDirection" />
+			<return-property name="railStatus" column="railStatus" />
+		</return>
+		<!-- {? = call o_updateinfo(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)} Oracle调用存储过程 -->
+		{call n_updateinfo(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)}   <!-- MySQL,SQLserver调用存储过程 -->
+	</sql-query>
+
+</hibernate-mapping>

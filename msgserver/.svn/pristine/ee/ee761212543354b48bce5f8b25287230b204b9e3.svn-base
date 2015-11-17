@@ -1,0 +1,132 @@
+package com.fcv.vms.server;
+
+import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.Executors;
+
+import org.apache.mina.core.service.IoAcceptor;
+import org.apache.mina.filter.codec.ProtocolCodecFilter;
+import org.apache.mina.filter.executor.ExecutorFilter;
+import org.apache.mina.filter.executor.OrderedThreadPoolExecutor;
+import org.apache.mina.filter.logging.LoggingFilter;
+import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.fcv.vms.Rail.RailManager;
+import com.fcv.vms.Rail.RailManager2;
+import com.fcv.vms.Rail.RailManager3;
+import com.fcv.vms.model.HibernateModel;
+import com.fcv.vms.model.HibernateSessionFactory;
+import com.fcv.vms.model.WorkData;
+import com.fcv.vms.model.WorkModel;
+import com.fcv.vms.model.WorkReg;
+import com.fcv.vms.task.file.FileManager;
+
+public class comserver{
+//	public static Queue<WorkModel> workqueue = new ConcurrentLinkedQueue<WorkModel>();
+	public static Map<Integer, Integer> reg_table = new HashMap<Integer, Integer>();
+//	public static Map<String, Integer> reg_table_string = new HashMap<String, Integer>();
+	public static void main(String args[]){
+	    
+		IoAcceptor acceptor;
+		acceptor=new NioSocketAcceptor();
+		acceptor.getFilterChain().addLast("logger", new LoggingFilter());
+		acceptor.getFilterChain().addLast("codec", new ProtocolCodecFilter(new MyProtocalCodecFactory()));
+		acceptor.getFilterChain().addLast("threadPool", new ExecutorFilter(new OrderedThreadPoolExecutor()));  
+		acceptor.getSessionConfig().setReadBufferSize(1024);
+		acceptor.getSessionConfig().setBothIdleTime(60);//秒
+		acceptor.setHandler(new MyHandler());
+		try {
+			acceptor.bind(new InetSocketAddress(9000));
+			System.out.println("Server Start!");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		//SecurityXMLServer server=new SecurityXMLServer();
+		
+		//RailManager.init();
+		
+		RailManager3.init();
+		
+        HibernateModel.createRegTable();
+		
+//		try {
+//			DataTableSpilt.spilt();
+//		} catch (Exception e1) {
+//			e1.printStackTrace();
+//		}
+		
+		
+//		/**
+//		 * new一条线程处理，不断把list缓存里面的数据写入数据库，
+//		 */
+//		new Thread(new Runnable() {
+//			
+//			@Override
+//			public void run() {
+//				HibernateModel model = new HibernateModel();
+//				WorkModel workModel = new WorkModel();
+//				long beforeTime = System.currentTimeMillis();
+//				while(true){
+//					while(!workqueue.isEmpty()){
+//							workModel = workqueue.poll();
+//							WorkData workData = workModel.getData();
+//							WorkReg workReg = workModel.getReg();
+//							
+//							if((workReg = workModel.getReg()) != null){
+//								try {
+//									model.OnProcessReg(workReg.getVin(), workReg.getMark(), workReg.getIstrouble());
+//								} catch (Exception e) {
+//									// TODO Auto-generated catch block
+//									e.printStackTrace();
+//								}
+//							}
+//							
+//							if(workData!= null){
+//								try {
+//									model.OnSavedata(workData.getVin(), workData.getDatas(), workData.getSid());
+//								} catch (Exception e) {
+//									// TODO Auto-generated catch block
+//									e.printStackTrace();
+//								}
+//							}
+//						}
+//					
+//						try {
+//							Thread.sleep(1000);
+//							long afterTime = System.currentTimeMillis();
+//							if(afterTime - beforeTime >= 1800000){//30分钟spilt一次data表
+//								DataTableSpilt.spilt();
+//							}
+//						} catch (InterruptedException e) {
+//							// TODO Auto-generated catch block
+//							e.printStackTrace();
+//						} catch (Exception e) {
+//							// TODO Auto-generated catch block
+//							e.printStackTrace();
+//						}
+//					}
+//			}
+//		}).start();
+//		
+	}
+	public void stop(){
+		System.out.println("Server Stop!");
+	}
+	
+}

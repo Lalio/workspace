@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping>
+
+	<class name="com.fcv.vms.dao.Statistic" table="statistic">
+		<id name="id">
+			<column name="id" />
+			<generator class="identity">
+				<param name="identity">ID</param>
+			</generator>
+		</id>
+		<property name="vin" column="vin" type="string" />
+		<property name="logonTime" column="logonTime" type="date" />
+		<property name="logoffTime" column="logoffTime" type="date" />
+		<property name="istrouble" column="istrouble" type="integer" />
+	</class>
+
+
+	<!-- 查询存储过程 -->
+	<sql-query name="processinfo" callable="true"> <!-- getStatisticId为存储过程名名字 -->
+		<return alias="statistic" class="com.fcv.vms.dao.Statistic">
+			<return-property name="id" column="id" />
+			<return-property name="vin" column="vin" />
+			<return-property name="logonTime" column="logonTime" />
+			<return-property name="logoffTime" column="logoffTime" />
+			<return-property name="istrouble" column="istrouble" />
+		</return>
+		<!--{? = call o_processinfo(?,?,?)} Oracle调用存储过程 -->
+		{call n_processinfo(?,?,?)}    <!--MySQL,SQLserver调用存储过程 -->
+	</sql-query>
+
+</hibernate-mapping>

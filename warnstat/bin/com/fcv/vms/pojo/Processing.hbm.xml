@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fcv.vms.pojo">
+
+	<class name="Processing" table="processing_warnstat" lazy="false">
+
+		<id name="id" type="java.lang.Integer" column="id">
+			<generator class="identity" />
+		</id>
+
+		<property name="vin" type="java.lang.String" column="vin"
+			length="20" />
+
+		<property name="endTime" type="java.util.Date" column="endTime" />
+			
+		<property name="today" type="java.util.Date" column="today" />	
+			
+		<property name="today_max" type="java.util.Date" column="today_max" />	
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+    
+<hibernate-mapping package="com.fcv.vms.dao">
+
+<class 
+    name="com.fcv.vms.dao.Reg" 
+    table="reg"
+    lazy="false"
+>
+
+    <id
+        name="id"
+        type="java.lang.Integer"
+        column="ID"
+    >
+    <generator class="identity"/>
+    </id>
+
+    <property
+        name="vin"
+        type="java.lang.String"
+        column="VIN"
+        length="50"
+    />
+    
+        <property
+        name="name"
+        type="java.lang.String"
+        column="Name"
+        length="50"
+    />
+        <property
+        name="markValue"
+        type="java.lang.Integer"
+        column="MarkValue"
+        length="4"
+    />
+        <property
+        name="modelValue"
+        type="java.lang.Integer"
+        column="ModelValue"
+        length="4"
+    />
+    
+    	<property
+        name="time"
+        type="java.util.Date"
+        column="Time"
+        length="8"
+    />
+    
+        <property
+        name="isuse"
+        type="java.lang.Integer"
+        column="Isuse"
+        length="4"
+    />
+    
+        <property
+        name="stime"
+        type="java.util.Date"
+        column="sTime"
+        length="8"
+    />
+    
+	<property
+        name="areaLng"
+        type="java.lang.Float"
+        column="AreaLng"
+        length="8"
+    />
+	<property
+        name="areaLat"
+        type="java.lang.Float"
+        column="AreaLat"
+        length="8"
+    /> 
+    <property
+        name="areaLenght"
+        type="java.lang.Integer"
+        column="AreaLenght"
+        length="6"
+    /> 
+    
+    <property
+        name="motorcadeName"
+        type="java.lang.String"
+        column="MotorcadeName"
+        length="50"
+    />
+    
+    <property
+        name="driverName"
+        type="java.lang.String"
+        column="DriverName"
+        length="50"
+    />
+    
+    <property
+        name="contact"
+        type="java.lang.String"
+        column="Contact"
+        length="50"
+    />
+        
+
+</class>
+</hibernate-mapping>

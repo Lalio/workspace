@@ -1,0 +1,274 @@
+2015-01-26 10:53:17,593 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 11:08:43,511 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 11:08:43,512 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 11:24:12,896 ERROR [Mina] - YuanChengCeShi0V4:both idle timeout!
+2015-01-26 11:24:12,896 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 11:27:09,510 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 11:29:02,719 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 11:29:02,720 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 12:06:41,325 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-26 12:06:41,325 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 13:13:44,280 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 13:19:02,682 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 13:19:02,682 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 13:22:42,877 ERROR [Mina] - YuanChengCeShi0V4:both idle timeout!
+2015-01-26 13:22:42,877 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 13:24:03,131 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 13:30:10,622 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 13:30:10,622 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 13:51:35,138 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 13:51:35,138 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 13:56:15,111 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 13:56:15,111 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 13:58:20,525 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 13:58:20,525 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 13:58:57,519 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 13:58:57,520 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 14:00:02,068 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 14:00:02,069 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 14:15:52,329 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 14:15:52,329 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 14:48:46,064 ERROR [Mina] - YuanChengCeShi0V4:both idle timeout!
+2015-01-26 14:48:46,064 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 14:52:34,192 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 15:02:55,238 ERROR [Mina] - YuanChengCeShi0V4:both idle timeout!
+2015-01-26 15:02:55,238 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 15:03:19,620 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 15:20:08,640 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:180)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:42)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:568)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:547)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:539)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:57)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:867)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:65)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-26 15:20:08,645 ERROR [Mina] - YuanChengCeShi0V4java.io.IOException: 远程主机强迫关闭了一个现有的连接。 exception!
+2015-01-26 15:20:08,645 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 15:30:17,411 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 15:37:36,067 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 15:37:36,067 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 15:39:01,496 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 15:39:01,496 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 15:41:32,077 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 15:41:32,077 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 15:41:39,690 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:111)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-26 15:41:39,713 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:111)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-26 15:41:39,723 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.getString(AbstractIoBuffer.java:1776)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:68)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-26 15:41:39,732 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:111)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-26 15:41:39,740 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.getString(AbstractIoBuffer.java:1776)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:68)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-26 15:41:39,757 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(Unknown Source)
+	at com.fcv.vms.model.HibernateModel.OnSavedata(HibernateModel.java:46)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:111)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-26 15:41:39,880 ERROR [Mina] - YuanChengCeShi0V4java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2015-01-26 15:41:39,880 ERROR [Mina] - YuanChengCeShi0V4java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2015-01-26 15:41:39,880 ERROR [Mina] - YuanChengCeShi0V4java.nio.charset.MalformedInputException: Input length = 1 exception!
+2015-01-26 15:41:39,880 ERROR [Mina] - YuanChengCeShi0V4java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2015-01-26 15:41:39,880 ERROR [Mina] - YuanChengCeShi0V4java.nio.charset.MalformedInputException: Input length = 1 exception!
+2015-01-26 15:41:39,881 ERROR [Mina] - YuanChengCeShi0V4java.lang.StringIndexOutOfBoundsException: String index out of range: 5 exception!
+2015-01-26 15:56:59,680 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 15:56:59,680 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 16:12:29,516 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 16:17:32,635 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 16:17:38,742 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.getString(AbstractIoBuffer.java:1776)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:68)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-26 16:17:38,768 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.getString(AbstractIoBuffer.java:1776)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:68)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-26 16:17:38,824 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(Unknown Source)
+	at org.apache.mina.core.buffer.AbstractIoBuffer.getString(AbstractIoBuffer.java:1776)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:68)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+2015-01-26 16:17:38,874 ERROR [Mina] - YuanChengCeShi0V4java.nio.charset.MalformedInputException: Input length = 1 exception!
+2015-01-26 16:17:38,874 ERROR [Mina] - YuanChengCeShi0V4java.nio.charset.MalformedInputException: Input length = 1 exception!
+2015-01-26 16:17:38,874 ERROR [Mina] - YuanChengCeShi0V4java.nio.charset.MalformedInputException: Input length = 1 exception!
+2015-01-26 16:20:08,575 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 16:26:16,524 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 16:31:35,529 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 16:31:35,529 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 16:35:20,541 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 16:35:20,541 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 16:36:28,552 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 16:37:32,076 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-26 16:37:32,077 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 16:44:40,489 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 16:44:40,489 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 16:58:18,550 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 16:58:18,550 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 16:59:05,521 ERROR [Mina] - New Connect VIN:YuanChengCeShi0V4
+2015-01-26 16:59:05,521 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 17:07:18,466 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 17:08:23,907 ERROR [Mina] - YuanChengCeShi0V4:both idle timeout!
+2015-01-26 17:08:23,908 ERROR [Mina] - YuanChengCeShi0V4 is offline!
+2015-01-26 17:13:59,454 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 17:13:59,454 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 17:16:08,940 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 17:16:08,940 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 17:18:16,191 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-26 17:18:16,191 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 17:29:15,075 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 17:48:46,253 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 17:48:46,253 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 17:56:33,630 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-26 17:56:33,630 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 18:00:56,383 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 18:04:19,730 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-26 18:04:19,730 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 18:07:01,436 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 18:26:05,524 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 18:26:05,524 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 18:30:19,439 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-26 18:30:19,439 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 19:19:37,837 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 19:21:17,278 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 19:21:17,278 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 19:23:42,063 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 19:23:42,064 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 19:29:01,423 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 19:29:01,423 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 19:35:55,494 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 19:35:55,494 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 19:58:33,792 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 19:58:33,792 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 20:11:57,840 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 20:11:57,840 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 20:20:09,354 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 20:20:09,354 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 20:22:09,348 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-26 20:22:09,348 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 20:29:53,897 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 20:34:56,501 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 20:34:56,501 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 20:39:39,095 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 20:39:39,095 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 20:47:24,509 ERROR [Mina] - New Connect VIN:YuanChengCeShi1V4
+2015-01-26 20:47:24,509 ERROR [Mina] - YuanChengCeShi1V4 is offline!
+2015-01-26 21:09:16,287 ERROR [Mina] - YuanChengCeShi1V4:both idle timeout!
+2015-01-26 21:09:16,287 ERROR [Mina] - YuanChengCeShi1V4 is offline!

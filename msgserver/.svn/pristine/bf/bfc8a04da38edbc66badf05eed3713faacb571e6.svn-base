@@ -1,0 +1,157 @@
+package com.fcv.vms.dao;
+
+import java.io.Serializable;
+import java.util.Date;
+
+/** @author Hibernate CodeGenerator */
+public class Status implements Serializable {
+
+    /** identifier field */
+    private Integer id;
+
+    private String vin;
+    
+    private Date time;
+    
+    private int markValue;
+    
+    private byte[] datas;
+    
+    private byte[] troubles;
+    
+    private int locateIsValid; 
+    
+    private Date locateTime; 
+    
+    private float locateLongitude; 
+    
+    private float locateLatitude; 
+    
+    private float locateSpeed; 
+    
+    private float locateDirection; 
+    
+    private int isCmd; 
+    
+    
+    private int railStatus;
+    
+    public int getRailStatus() {
+		return railStatus;
+	}
+
+	public void setRailStatus(int railStatus) {
+		this.railStatus = railStatus;
+	}
+
+	/** default constructor */
+    public Status() {
+    }
+             
+	public int getIsCmd() {
+		return isCmd;
+	}
+
+	public void setIsCmd(int isCmd) {
+		this.isCmd = isCmd;
+	}
+
+	public Date getLocateTime() {
+		return locateTime;
+	}
+
+	public void setLocateTime(Date locateTime) {
+		this.locateTime = locateTime;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getVin() {
+		return vin;
+	}
+
+	public void setVin(String vin) {
+		this.vin = vin;
+	}
+
+	public Date getTime() {
+		return time;
+	}
+
+	public void setTime(Date time) {
+		this.time = time;
+	}
+
+	public int getMarkValue() {
+		return markValue;
+	}
+
+	public void setMarkValue(int markValue) {
+		this.markValue = markValue;
+	}
+
+	public byte[] getDatas() {
+		return datas;
+	}
+
+	public void setDatas(byte[] datas) {
+		this.datas = datas;
+	}
+
+	public byte[] getTroubles() {
+		return troubles;
+	}
+
+	public void setTroubles(byte[] troubles) {
+		this.troubles = troubles;
+	}
+
+	public int getLocateIsValid() {
+		return locateIsValid;
+	}
+
+	public void setLocateIsValid(int locateIsValid) {
+		this.locateIsValid = locateIsValid;
+	}
+
+	public float getLocateLongitude() {
+		return locateLongitude;
+	}
+
+	public void setLocateLongitude(float locateLongitude) {
+		this.locateLongitude = locateLongitude;
+	}
+
+	public float getLocateLatitude() {
+		return locateLatitude;
+	}
+
+	public void setLocateLatitude(float locateLatitude) {
+		this.locateLatitude = locateLatitude;
+	}
+
+	public float getLocateSpeed() {
+		return locateSpeed;
+	}
+
+	public void setLocateSpeed(float locateSpeed) {
+		this.locateSpeed = locateSpeed;
+	}
+
+	public float getLocateDirection() {
+		return locateDirection;
+	}
+
+	public void setLocateDirection(float locateDirection) {
+		this.locateDirection = locateDirection;
+	}
+	
+	
+	
+}

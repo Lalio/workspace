@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+    
+<hibernate-mapping package="com.fcv.vms.dao">
+
+<class 
+    name="com.fcv.vms.dao.Rail" 
+    table="rail"
+    lazy="false"
+>
+
+    <id
+        name="id"
+        type="java.lang.Integer"
+        column="ID"
+    >
+    <generator class="identity" />
+    </id>
+
+    <property
+        name="railName"
+        type="java.lang.String"
+        column="RailName"
+        length="50"
+    />
+    <property
+        name="railLatLng"
+        type="java.lang.String"
+        column="RailLatLng"
+        length="1000"
+    />
+    <!-- associations -->
+
+</class>
+</hibernate-mapping>

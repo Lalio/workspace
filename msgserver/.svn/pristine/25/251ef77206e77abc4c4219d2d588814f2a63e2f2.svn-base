@@ -1,0 +1,37 @@
+package com.fcv.vms.dao;
+
+import java.io.Serializable;
+import java.util.Date;
+
+/** @author Hibernate CodeGenerator */
+public class RegMap implements Serializable {
+
+   
+	/** identifier field */
+    private Integer id;
+
+    private String vin;
+    private int has_data_table;
+    
+
+    public int getHas_data_table() {
+		return has_data_table;
+	}
+	public void setHas_data_table(int has_data_table) {
+		this.has_data_table = has_data_table;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getVin() {
+		return vin;
+	}
+	public void setVin(String vin) {
+		this.vin = vin;
+	}
+	
+
+}

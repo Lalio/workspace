@@ -1,0 +1,61 @@
+2014-09-12 10:47:01,699 ERROR [Mina] - New Connect VIN:
+2014-09-12 10:47:02,012 ERROR [org.hibernate.util.JDBCExceptionReporter] - ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+2014-09-12 10:47:02,012 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:242)
+	at com.fcv.vms.server.MyHandler.messageReceived(MyHandler.java:101)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:722)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:434)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:802)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:59)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:64)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:552)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:544)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:488)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute query
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:94)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.loader.Loader.doList(Loader.java:2231)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2125)
+	at org.hibernate.loader.Loader.list(Loader.java:2120)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:312)
+	at org.hibernate.impl.SessionImpl.listCustomQuery(SessionImpl.java:1722)
+	at org.hibernate.impl.AbstractSessionImpl.list(AbstractSessionImpl.java:165)
+	at org.hibernate.impl.SQLQueryImpl.list(SQLQueryImpl.java:175)
+	at com.fcv.vms.model.HibernateModel.OnProcessReg(HibernateModel.java:234)
+	... 11 more
+Caused by: java.sql.SQLException: ORA-01400: cannot insert NULL into ("SFCV"."STATUS"."VIN")
+ORA-06512: at "SFCV.J_PROCESSINFO", line 19
+ORA-01403: no data found
+ORA-06512: at line 1
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:745)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:215)
+	at oracle.jdbc.driver.T4CCallableStatement.executeForRows(T4CCallableStatement.java:965)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1170)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3339)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3445)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4394)
+	at com.mchange.v2.c3p0.impl.NewProxyCallableStatement.execute(NewProxyCallableStatement.java:3044)
+	at org.hibernate.dialect.Oracle9Dialect.getResultSet(Oracle9Dialect.java:319)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:215)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1805)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:697)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:259)
+	at org.hibernate.loader.Loader.doList(Loader.java:2228)
+	... 18 more
+2014-09-12 10:47:02,012 ERROR [Mina] - java.lang.Exception: org.hibernate.exception.ConstraintViolationException: could not execute query exception!
+2014-09-12 10:47:02,621 ERROR [Mina] - New Connect VIN:A0000038C196589V3
+2014-09-12 10:47:04,337 ERROR [Mina] - A0000038C196589V3 is offline!
+2014-09-12 10:47:26,693 ERROR [Mina] - New Connect VIN:A0000038C196589V3
+2014-09-12 12:26:31,508 ERROR [Mina] - A0000038C196589V3:both idle timeout!
+2014-09-12 12:26:31,508 ERROR [Mina] - A0000038C196589V3 is offline!

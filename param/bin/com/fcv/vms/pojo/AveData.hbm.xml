@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fcv.vms.pojo">
+
+	<class name="AveData" table="aveData_1_min" lazy="false">
+
+		<id name="id" type="java.lang.Integer" column="id">
+			<generator class="identity" />
+		</id>
+
+		<property name="vin" type="java.lang.String" column="vin"
+			length="20" />
+
+		<property name="startTime" type="java.util.Date" column="startTime" />
+		<property name="lastTime" type="java.util.Date" column="lastTime" />
+		<property name="onlineStime" type="java.util.Date" column="onlineStime" />
+		<property name="onlineEtime" type="java.util.Date" column="onlineEtime" />
+		<property name="onlineTime" type="java.lang.Long" column="onlineTime" />
+
+		<property name="speed" type="java.lang.Float" column="speed"
+			length="10" />
+		<property name="maxSpeed" type="java.lang.Float" column="maxSpeed"
+			length="10" />
+
+		<property name="count1" type="java.lang.Integer" column="count1"
+			length="10" />
+		<property name="count2" type="java.lang.Integer" column="count2"
+			length="10" />
+		<property name="count3" type="java.lang.Integer" column="count3"
+			length="10" />
+		<property name="count4" type="java.lang.Integer" column="count4"
+			length="10" />
+		<property name="count5" type="java.lang.Integer" column="count5"
+			length="10" />
+		<property name="count6" type="java.lang.Integer" column="count6"
+			length="10" />
+
+		<property name="isAttendance" type="java.lang.Integer"
+			column="isAttendance" length="1" />
+
+		<property name="startSOC" type="java.lang.Float" column="startSOC"
+			length="10" />
+		<property name="endSOC" type="java.lang.Float" column="endSOC"
+			length="10" />
+
+		<property name="totalMotorConV" type="java.lang.Float"
+			column="totalMotorConV" length="10" />
+		<property name="motorConV" type="java.lang.Float" column="motorConV"
+			length="10" />
+		<property name="totalMotorConApos" type="java.lang.Float"
+			column="totalMotorConApos" length="10" />
+		<property name="motorConApos" type="java.lang.Float" column="motorConApos"
+			length="10" />
+		<property name="totalMotorConAneg" type="java.lang.Float"
+			column="totalMotorConAneg" length="10" />
+		<property name="motorConAneg" type="java.lang.Float" column="motorConAneg"
+			length="10" />
+		<property name="totalGeneratorConApos" type="java.lang.Float"
+			column="totalGeneratorConApos" length="10" />
+		<property name="generatorConApos" type="java.lang.Float"
+			column="generatorConApos" length="10" />
+		<property name="totalGeneratorConAneg" type="java.lang.Float"
+			column="totalGeneratorConAneg" length="10" />
+		<property name="generatorConAneg" type="java.lang.Float"
+			column="generatorConAneg" length="10" />
+		<property name="totalMotorConTem" type="java.lang.Float"
+			column="totalMotorConTem" length="10" />
+		<property name="motorConTem" type="java.lang.Float" column="motorConTem"
+			length="10" />
+		<property name="totalFlue" type="java.lang.Float" column="totalFlue"
+			length="10" />
+		<property name="flue" type="java.lang.Float" column="flue"
+			length="10" />
+		<property name="totalTow" type="java.lang.Float" column="totalTow"
+			length="10" />
+		<property name="tow" type="java.lang.Float" column="tow"
+			length="10" />
+		<property name="totalAccel" type="java.lang.Float" column="totalAccel"
+			length="10" />
+		<property name="accel" type="java.lang.Float" column="accel"
+			length="10" />
+		<property name="totalBrake" type="java.lang.Float" column="totalBrake"
+			length="10" />
+		<property name="brake" type="java.lang.Float" column="brake"
+			length="10" />
+		<property name="totalEngineThrottle" type="java.lang.Float"
+			column="totalEngineThrottle" length="10" />
+		<property name="engineThrottle" type="java.lang.Float"
+			column="engineThrottle" length="10" />
+		<property name="isOver" type="java.lang.Integer" column="isOver"
+			length="10" />
+		<property name="totalBatteryA" type="java.lang.Float" column="totalBatteryA"
+			length="10" />
+		<property name="batteryA" type="java.lang.Float" column="batteryA"
+			length="10" />
+		<property name="totalBatteryA_all" type="java.lang.Float"
+			column="totalBatteryA_all" length="10" />
+		<property name="batteryA_all" type="java.lang.Float" column="batteryA_all"
+			length="10" />
+		<property name="totalBatteryV" type="java.lang.Float" column="totalBatteryV"
+			length="10" />
+		<property name="batteryV" type="java.lang.Float" column="batteryV"
+			length="10" />
+		<property name="totalBatteryV_all" type="java.lang.Float"
+			column="totalBatteryV_all" length="10" />
+		<property name="batteryV_all" type="java.lang.Float" column="batteryV_all"
+			length="10" />
+		<property name="totalBatteryTem" type="java.lang.Float"
+			column="totalBatteryTem" length="10" />
+		<property name="batteryTem" type="java.lang.Float" column="batteryTem"
+			length="10" />
+		<property name="totalMotorTem" type="java.lang.Float" column="totalMotorTem"
+			length="10" />
+		<property name="motorTem" type="java.lang.Float" column="motorTem"
+			length="10" />
+		<property name="totalMotorV" type="java.lang.Float" column="totalMotorV"
+			length="10" />
+		<property name="motorV" type="java.lang.Float" column="motorV"
+			length="10" />
+		<property name="totalMotorRot" type="java.lang.Float" column="totalMotorRot"
+			length="10" />
+		<property name="motorRot" type="java.lang.Float" column="motorRot"
+			length="10" />
+		<property name="totalMotorTor" type="java.lang.Float" column="totalMotorTor"
+			length="10" />
+		<property name="motorTor" type="java.lang.Float" column="motorTor"
+			length="10" />
+		<property name="totalDCDC_V" type="java.lang.Float" column="totalDCDC_V"
+			length="10" />
+		<property name="DCDC_V" type="java.lang.Float" column="DCDC_V"
+			length="10" />
+		<property name="totalDCDC_A" type="java.lang.Float" column="totalDCDC_A"
+			length="10" />
+		<property name="DCDC_A" type="java.lang.Float" column="DCDC_A"
+			length="10" />
+		<property name="totalDCDC_Tem" type="java.lang.Float" column="totalDCDC_Tem"
+			length="10" />
+		<property name="DCDC_Tem" type="java.lang.Float" column="DCDC_Tem"
+			length="10" />
+		<property name="power" type="java.lang.Float" column="power"
+			length="10" />
+		<property name="SOC" type="java.lang.Float" column="SOC"
+			length="10" />
+
+	</class>
+</hibernate-mapping>

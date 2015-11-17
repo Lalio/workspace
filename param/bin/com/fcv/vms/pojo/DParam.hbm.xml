@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.fcv.vms.pojo">
+
+	<class name="DParam" table="dparam" lazy="false">
+
+		<id name="id" type="java.lang.Integer" column="ID">
+			<generator class="identity" />
+		</id>
+		<property name="dparamType" type="java.lang.String" column="DParamType"
+			length="20" />
+		<property name="dparamName" type="java.lang.String" column="DParamName"
+			length="20" />
+		<property name="dParamNameType" type="java.lang.String"
+			column="DParamNameType" length="20" />
+		<property name="namePinYin" type="java.lang.String" column="NamePinYin"
+			length="20" />
+		<property name="dparamFormat" type="java.lang.String" column="DParamFormat"
+			length="10" />
+		<property name="dparamUnit" type="java.lang.String" column="DParamUnit"
+			length="10" />
+		<property name="dparamFactor" type="java.lang.Float" column="DParamFactor"
+			length="8" />
+		<property name="dparamOffset" type="java.lang.Float" column="DParamOffset"
+			length="8" />
+		<property name="dparamValueMin" type="java.lang.Float"
+			column="DParamValueMin" length="4" />
+		<property name="dparamValueMax" type="java.lang.Float"
+			column="DParamValueMax" length="4" />
+		<property name="dparamValueDefault" type="java.lang.Float"
+			column="DParamValueDefault" length="4" />
+		<property name="dparamByteLength" type="java.lang.Integer"
+			column="DParamByteLength" length="1" />
+		<property name="dparamOrder" type="java.lang.Integer" column="DParamOrder"
+			length="2" />
+		<property name="dparamByteBegin" type="java.lang.Integer"
+			column="DParamByteBegin" length="2" />
+		<property name="dparamIsByte" type="java.lang.Integer"
+			column="DParamIsByte" length="1" />
+		<property name="dparamByteDatas" type="java.lang.String"
+			column="DParamByteDatas" length="50" />
+		<property name="dparamIsMap" type="java.lang.Integer" column="DParamIsMap"
+			length="1" />
+		<property name="dparamMapDatas" type="java.lang.String"
+			column="DParamMapDatas" length="200" />
+		<property name="dparamMeterType" type="java.lang.Integer"
+			column="DParamMeterType" length="2" />
+		<property name="markId" type="java.lang.Integer" column="MarkID"
+			length="2" />
+		<property name="dparamMeter" type="java.lang.String" column="DParamMeter"
+			length="10" />
+		<property name="dparamAgreeType" type="java.lang.Integer"
+			column="DParamAgreeType" length="2" />
+		<property name="dparamNewAgreeType" type="java.lang.Integer"
+			column="DParamNewAgreeType" length="2" />
+		<property name="dparamHighAndLow" type="java.lang.Integer"
+			column="DParamHighAndLow" length="2" />
+		<!-- associations -->
+
+	</class>
+</hibernate-mapping>

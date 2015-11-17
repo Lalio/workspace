@@ -1,0 +1,279 @@
+@import "button.css";
+@import "pagination.css";
+
+body {
+    background-color: #DAE6F3;
+    color: #336699;
+    font-size: 13.5px;
+    display: none;
+    font-family:"Times New Roman",Georgia,Serif;
+}
+
+table {
+    width: 98%;
+    border-collapse: collapse;
+	word-wrap:break-word;
+}
+
+table,tr,td {
+    background-color: #FFFFFF;
+    color : #333333;
+    border: 1px solid #525C3D;
+    margin: 0 auto; 
+    text-align: left;
+}
+
+input,select,iframe,textarea{
+	border-radius:5px;
+	vertical-align:middle;
+}
+
+select{
+    position: relative;
+    font-size : 15px;
+}
+
+textarea{
+    line-height: 24px;
+    border: 0px solid #a1bcce;
+    padding-left: 3px;
+    font-size : 13px;
+	background:transparent;
+}
+
+input{  
+	height:22px;  
+	background-color:#FFF;  
+	border:1px solid #CCC;  
+}
+
+li{
+	list-style-type:none;
+	padding:3px;
+}
+
+th {
+    text-align: center;
+    height:25px;
+}
+
+td {
+    word-wrap:break-word;
+}
+
+.tr_active {
+    background-color: #F0FBFF;
+}
+
+p{
+    text-align: center;
+}
+
+hr{
+	height:1px;
+	border:none;
+	border-top:1px dashed #66B3FF;
+}
+
+tr{
+    text-align: center;
+    background-color: #158EBC;
+}
+
+a{
+    text-decoration: none;
+    color: #0099CC;
+}
+
+th a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 0 6px #a1bcce;
+}
+/* 设置滚动条的样式 */
+
+#menu_active {
+    background-color: #18A8DE;
+}
+
+.menu {
+    text-align: center;
+}
+
+.login_main {
+    position: relative;
+    top: 120px;
+    font-size : 15pt;
+}
+
+.login_main td{
+    text-align: center;
+}
+
+.login_main .title {
+    font-size : 30pt;
+    cursor : crosshair;
+}
+
+.login_main table {
+    width: 40%;
+}
+
+.login_main td {
+    height: 50px;
+}
+
+.cal_title {
+    color : #0099CC;
+    font-family : Georgia;
+    font-size : 25pt;
+    font-weight : bold;
+    letter-spacing : 5px;
+    cursor : crosshair;
+}
+
+.cal_title .sub_title{
+    width: 30px;
+    color : #242424;
+    letter-spacing : 1px;
+    font-weight : normal;
+    font-size : 11pt;
+    text-align : right;
+}
+
+.cal_main {
+    font-family : Georgia;
+    font-size : 15pt;
+}
+
+.cal_main td{
+    text-align: center;
+}
+
+.cal_main .cnum {
+    cursor:pointer;
+    height:80px;
+    font-size : 40pt;
+}
+
+.ban {
+    background-color: #FFCCCC;
+}
+
+.enough {
+    background-color: #99CC66;
+}
+
+.lack {
+    background-color: #FFCC99;
+}
+
+.invalid {
+    background-color: #E4E4E4;
+}
+
+.info td{
+    color : #363636;
+    text-align: center;
+}
+
+.input_white{
+    background: #f8f8f8 !important;
+}
+
+.input_red {
+    background-color: #faddde !important;
+	//background: url(../../etc/images/input_check.gif) no-repeat 0 -29px!important;
+}
+
+.input_yellow {
+    background: #fef4e9 !important;
+}
+
+.input_green {
+    background: #e8f0de !important;
+}
+
+.input_empty .ajax_error{
+    padding-left: 25px;
+    color: #EE4F11;
+    background: url(../../etc/images/input_check.gif) no-repeat 0 -27px!important;
+}
+
+#content_pie {
+    text-align: center;
+}
+
+#content_bar {
+    text-align: center;
+}
+
+.ctr_panel p { 
+    text-align: center;
+}
+
+.contract_mdfd { 
+	background: yellow;
+}
+
+.commiting{
+	margin:6px;
+	font-size:15px;
+	font-style: italic;
+	font-weight: 500;
+}
+
+.order_ctr_panel{
+	position: fixed;
+	bottom: 12px;
+	z-index: 3;
+	right: 250px;
+}
+
+.order_ctr_panel_common{
+	position: fixed;
+	bottom: 12px;
+	z-index: 3;
+	right: 25px;
+}
+
+.order_ctr_menu{
+	position: fixed;
+	top: 12px;
+	z-index: 3;
+	right: 15px;
+	width: 98%;
+}
+
+ul{ 
+	list-style-type: none;
+}
+
+.order_op_panel a{
+	display : inline;
+}
+
+.report_list td{
+	text-align:center
+}
+
+.nd_flash{
+	font-weight: bolder;
+}
+
+#ad_js_panel div{
+	margin: 5px;
+}

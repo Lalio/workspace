@@ -1,0 +1,59 @@
+2014-12-03 09:48:48,399 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 09:49:13,493 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 09:49:13,494 ERROR [Mina] - A0000038C190A57V3 is offline!
+2014-12-03 09:50:27,406 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 09:50:27,407 ERROR [Mina] - A0000038C190A57V3 is offline!
+2014-12-03 09:52:47,108 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 09:54:49,578 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 09:55:44,758 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 09:55:44,758 ERROR [Mina] - A0000038C190A57V3 is offline!
+2014-12-03 09:58:48,097 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 10:04:37,997 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 10:09:45,980 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 10:09:45,980 ERROR [Mina] - A0000038C190A57V3 is offline!
+2014-12-03 10:23:07,085 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 10:25:54,010 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 10:25:54,011 ERROR [Mina] - A0000038C190A57V3 is offline!
+2014-12-03 10:48:47,475 ERROR [org.apache.mina.filter.logging.LoggingFilter] - EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:180)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:42)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:568)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:547)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:539)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:57)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:867)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:65)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-12-03 10:48:47,481 ERROR [Mina] - A0000038C190A57V3java.io.IOException: 远程主机强迫关闭了一个现有的连接。 exception!
+2014-12-03 10:48:47,481 ERROR [Mina] - A0000038C190A57V3 is offline!
+2014-12-03 10:49:04,360 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 10:52:09,239 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 10:57:59,273 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 11:03:24,839 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 11:04:08,389 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 11:15:40,491 ERROR [Mina] - A0000038C190A57V3 is offline!
+2014-12-03 11:57:03,952 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,953 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,953 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,953 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,953 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,953 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,953 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,954 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,954 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,954 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,954 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,954 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 11:57:03,954 ERROR [Mina] - A0000038C190A57V3 is offline!
+2014-12-03 16:58:58,169 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 17:01:43,487 ERROR [Mina] - New Connect VIN:A0000038C190A57V3
+2014-12-03 17:13:04,805 ERROR [Mina] - A0000038C190A57V3:both idle timeout!
+2014-12-03 17:13:04,806 ERROR [Mina] - A0000038C190A57V3 is offline!
