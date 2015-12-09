@@ -9,6 +9,10 @@ Desktop.ini
 *.egg
 *.egg-info
 
+# configueration
+applicationContext.xml
+hibernate.cfg.xml
+
 # JAVA
 *.class
 .metadata
@@ -39,7 +43,7 @@ param_1_min
 qg2015
 test.php
 tongji_10_min
-tongji_1_day
+tongji_1_day_old
 tongji_1_hour
 tongji_1_min
 tongji_30_min
